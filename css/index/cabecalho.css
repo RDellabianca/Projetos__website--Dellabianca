@@ -1,0 +1,33 @@
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+  
+  .cabecalho__menu-hamburger {
+    width: 4rem;
+    height: 3rem;
+    padding: 1rem .5rem;
+    background: url(../../img/simbolos__menu-hamburger.png);
+  }
+  
+  .cabecalho__link-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    min-width: 50px;
+    box-sizing: border-box;
+
+  }
+
+    .link-logo__imagem {
+      display: block;
+      width: 45px;
+      height: 30px;
+    }
+    .cabecalho__navegacao {
+      width: 5rem;
+      height: 5rem;
+    }

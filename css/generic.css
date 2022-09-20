@@ -1,0 +1,35 @@
+:root {
+  --cor__amarelo-claro: #FAE27B;
+  --cor__amarelo-padrao: #DEA52D;
+  --cor__amarelo-escuro: #C8871F;
+  --cor__amarelo-profundo: #735400;
+  --cor__verde-claro: #5A9F76;
+  --cor__verde-padrao: #346146;
+  --cor__verde-escuro: #163E26;
+  --cor__verde-profundo: #003111;
+}
+
+@font-face {
+  font-family: roboto-slab;
+  src: url(../font/roboto-slab/static/RobotoSlab-ExtraLight.ttf);
+  font-style: italic;
+
+}
+@font-face {
+  font-family: roboto-slab;
+  src: url(../font/roboto-slab/static/RobotoSlab-Regular.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: roboto-slab;
+  src: url(../font/roboto-slab/static/RobotoSlab-Regular.ttf);
+  font-weight: 900;
+}
+
+html {
+  font-family: 'Roboto Slab', serif;
+  font-size: 10px;
+  font-weight: 500;
+  font-style: normal;
+}
