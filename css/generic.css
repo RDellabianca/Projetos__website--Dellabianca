@@ -2,7 +2,7 @@
   --cor__amarelo-claro: #FAE27B;
   --cor__amarelo-padrao: #DEA52D;
   --cor__amarelo-escuro: #C8871F;
-  --cor__amarelo-profundo: #735400;
+  --cor__amarelo-profundo: #966E00;
   --cor__verde-claro: #5A9F76;
   --cor__verde-padrao: #346146;
   --cor__verde-escuro: #163E26;
@@ -31,5 +31,18 @@ html {
   font-family: 'Roboto Slab', serif;
   font-size: 10px;
   font-weight: 500;
-  font-style: normal;
+  font-style: normal;}
+
+main {
+  padding-top: 5rem;
+}
+
+.hideText {
+  min-width: none;
+  width: 0px;
+  max-width: 0px;
+  min-height: none;
+  height: 0px;
+  max-height: 0px;
+  opacity: 0;
 }

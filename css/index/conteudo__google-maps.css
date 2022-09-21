@@ -1,0 +1,11 @@
+.conteudo__google-maps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+  .google-maps-mapa {
+    max-width: 100%;
+    margin: 1rem 0rem;
+  }

@@ -1,0 +1,16 @@
+.conteudo__banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: url(../../img/banner.png) no-repeat center / cover;
+  min-height: 25vh;
+}
+
+  .banner__titulo {
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: 900;
+    text-align: center;
+    margin: 0px;
+  }

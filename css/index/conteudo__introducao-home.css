@@ -1,0 +1,23 @@
+.conteudo__introducao-home {
+  padding: 1rem;
+}
+
+  .secao__titulo {
+    width: 90%;
+    color: var(--cor__verde-padrao);
+    font-size: 2.4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    padding: .5rem 0rem 1rem 0rem;
+    border-bottom: .1rem solid var(--cor__verde-padrao);
+    margin: auto;
+  }
+
+  .introducao-home__descricao {
+    font-size: 1.8rem;
+    font-style: italic;
+    line-height: 2rem;
+    color: var(--cor__verde-profundo);
+    margin: 2rem 0rem 0rem 0rem;
+  }
