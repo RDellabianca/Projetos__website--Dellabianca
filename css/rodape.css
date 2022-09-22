@@ -1,6 +1,8 @@
 .rodape {
   margin: 0rem;
-  background-color: var(--cor__amarelo-claro);
+  background-color: var(--cor__fundo-rodape);
+  font-size: 1.6rem;
+  color: #fff;
 }
 
   .rodape__midias-sociais {
@@ -8,8 +10,9 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    padding: 1rem 0rem;
-    border-bottom: .1rem solid black;
+    padding: 2rem 0rem;
+    border-bottom: .1rem solid #fff;
+    margin-bottom: 2rem;
     }
 
     .midias-sociais__logo {
@@ -25,10 +28,9 @@
       }
   
   .rodape__copyright {
-    width: 75%;
-    text-align: center;
-    font-size: 1.4rem;
+    width: 90%;
     font-weight: 900;
-    padding: 1rem 0rem;
+    line-height: 2rem;
+    padding: 0rem 0rem 2rem 0rem;
     margin: auto;
   }

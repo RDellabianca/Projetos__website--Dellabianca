@@ -7,6 +7,7 @@
   --cor__verde-padrao: #346146;
   --cor__verde-escuro: #163E26;
   --cor__verde-profundo: #003111;
+  --cor__fundo-rodape: #444;
 }
 
 @font-face {
@@ -31,7 +32,21 @@ html {
   font-family: 'Roboto Slab', serif;
   font-size: 10px;
   font-weight: 500;
-  font-style: normal;}
+  font-style: normal;
+  line-height: 1rem;
+  background-color: var(--cor__amarelo-escuro);
+
+
+
+  /* Deletar aqui ao desenvolver tablet/desktop */
+  max-width: 280px;
+  margin: auto;
+  /* END */
+}
+
+body {
+  background-color: #fff;
+}
 
 main {
   padding-top: 5rem;
