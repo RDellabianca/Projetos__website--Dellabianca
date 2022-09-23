@@ -30,22 +30,20 @@
       background-size: 80%;
       transition: all, 500ms;
     }
-      
+
       .menu-principal__menu-hamburger:focus-within {
         background: var(--cor__amarelo-escuro) url(../img/simbolos__menu-hamburger-on.svg) no-repeat center / cover;
         background-size: 80%;
       }
 
       .menu-principal__menu-hamburger:focus-within>.menu-hamburger__submenu {
-        display: block;
+        display: initial;
       }
     
     .menu-principal__link-logo {
       display: flex;
       justify-content: center;
       align-items: center;
-      min-height: 50px;
-      min-width: 50px;
       box-sizing: border-box;
     }
 

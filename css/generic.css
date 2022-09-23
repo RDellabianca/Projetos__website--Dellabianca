@@ -52,6 +52,16 @@ main {
   padding-top: 5rem;
 }
 
+a {
+  text-decoration: none;
+}
+
+a, button {
+  min-height: 50px;
+  min-width: 50px;
+}
+
+
 .hideText {
   min-width: none;
   width: 0px;
