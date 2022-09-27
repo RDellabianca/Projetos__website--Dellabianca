@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="20mm"
+   height="20mm"
+   viewBox="0 0 20 20"
+   version="1.1"
+   id="svg8186"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   sodipodi:docname="simbolos__icones--email.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview8188"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="3.7415825"
+     inkscape:cx="39.555456"
+     inkscape:cy="45.969854"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs8183" />
+  <rect
+     style="fill:#c8871f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.50489;stroke-dasharray:none;stroke-opacity:1"
+     id="rect16020"
+     width="20"
+     height="20"
+     x="0"
+     y="0"
+     rx="0.11130705" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g14506"
+       transform="matrix(0.70338882,0,0,0.5761048,2.9661118,4.238952)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.7645px;line-height:0;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.912908;stroke-dasharray:none;stroke-opacity:1"
+         x="0.99448395"
+         y="16.698425"
+         id="text13666"
+         transform="scale(1.0118916,0.98824815)"><tspan
+           sodipodi:role="line"
+           id="tspan13664"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';stroke:#ffffff;stroke-width:0.912908;stroke-opacity:1"
+           x="0.99448395"
+           y="16.698425">✉</tspan></text>
+      <rect
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+         id="rect14446"
+         width="16.83659"
+         height="11.836588"
+         x="1.5817051"
+         y="4.081706"
+         rx="0.06650994"
+         ry="0" />
+    </g>
+  </g>
+</svg>
