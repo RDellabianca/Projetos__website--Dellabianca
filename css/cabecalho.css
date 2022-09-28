@@ -2,14 +2,6 @@
   position: fixed;
   background-color: #fff;
   width: 100%;
-
-
-
-
-  
-  /* Deletar depois */
-  max-width: 280px;
-  /* END */
 }
   
   .cabecalho__menu-principal {
@@ -28,7 +20,7 @@
       border: none;
       background: transparent url(../img/simbolos__menu-hamburger-off.svg) no-repeat center / cover;
       background-size: 80%;
-      transition: all, 500ms;
+      transition: var(--transition__padrao);
     }
 
       .menu-principal__menu-hamburger:focus-within {
@@ -49,8 +41,7 @@
 
       .link-logo__imagem {
         display: block;
-        width: 45px;
-        height: 30px;
+        width: 100%;
       }
       
     .menu-principal__navegacao {
@@ -58,4 +49,26 @@
       height: 5rem;
     }
 
-  
+@media screen and (min-width: 428px) {
+  .menu-principal__menu-hamburger,
+  .menu-principal__link-logo {
+    width: 7rem;
+    height: 7rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+
+}
+
+@media screen and (min-width: 1280px) {
+
+}
+
+@media screen and (min-width: 1920px) {
+
+}

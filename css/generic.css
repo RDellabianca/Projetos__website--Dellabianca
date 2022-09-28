@@ -10,6 +10,7 @@
   --cor__fundo-rodape: #444;
   --box-shadow__equilatero: 0px 0px 1rem .25rem #aaa;
   --box-shadow__vertical-baixo: 0px .1rem 1rem .25rem #aaa;
+  --transition__padrao: all, 200ms;
 }
 
 @font-face {
@@ -37,13 +38,6 @@ html {
   font-style: normal;
   line-height: 1rem;
   background-color: var(--cor__amarelo-escuro);
-
-
-
-  /* Deletar aqui ao desenvolver tablet/desktop */
-  max-width: 280px;
-  margin: auto;
-  /* END */
 }
 
 body {
@@ -63,7 +57,6 @@ a, button {
   min-width: 50px;
 }
 
-
 .hideText {
   min-width: none;
   width: 0px;
@@ -72,4 +65,26 @@ a, button {
   height: 0px;
   max-height: 0px;
   opacity: 0;
+}
+
+@media screen and (min-width: 428px) {
+  main {
+    padding-top: 7rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+
+}
+
+@media screen and (min-width: 1280px) {
+
+}
+
+@media screen and (min-width: 1920px) {
+
 }

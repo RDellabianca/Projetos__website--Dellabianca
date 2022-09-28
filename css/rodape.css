@@ -27,10 +27,48 @@
         height: 100%;
       }
   
-  .rodape__copyright {
-    width: 90%;
+  .rodape__texto {
+    width: 100%;
     font-weight: 900;
     line-height: 2rem;
-    padding: 0rem 0rem 2rem 0rem;
+    padding: 0rem 1rem 2rem 1rem;
     margin: auto;
+    box-sizing: border-box;
   }
+  
+@media screen and (min-width: 428px) {
+  .rodape {
+    font-size: 2rem;
+  }
+  
+    .rodape__midias-sociais {
+      padding: 2rem 0rem;
+      border-bottom: .1rem solid #fff;
+      margin-bottom: 2rem;
+    }
+  
+      .midias-sociais__logo {
+        width: 6rem;
+        height: 6rem;
+      }
+  
+    .rodape__texto {
+      padding: 0rem 2rem 2rem 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+
+}
+
+@media screen and (min-width: 1280px) {
+
+}
+
+@media screen and (min-width: 1920px) {
+
+}
