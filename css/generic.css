@@ -69,22 +69,34 @@ a, button {
 
 @media screen and (min-width: 428px) {
   main {
-    padding-top: 7rem;
+    padding-top: 5.5rem;
   }
 }
 
 @media screen and (min-width: 768px) {
-
+  main {
+    padding-top: 6rem;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-
+  main {
+    padding-top: 6.5rem;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-
+  main {
+    padding-top: 7rem;
+  }
 }
 
 @media screen and (min-width: 1920px) {
+  html {
+    font-size: .75vw;
+  }
 
+  main {
+    padding-top: 7.5rem;
+  }
 }

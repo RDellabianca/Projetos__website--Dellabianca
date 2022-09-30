@@ -105,7 +105,7 @@
       
 @media screen and (min-width: 428px) {
   .menu-hamburger__submenu {
-    top: 7rem;
+    top: 5.5rem;
     max-height: 80vh;
   }
 
@@ -120,17 +120,65 @@
 }
 
 @media screen and (min-width: 768px) {
+  .menu-hamburger__submenu {
+    top: 6rem;
+    max-height: 80vh;
+  }
 
+  .submenu__link,
+  .submenu__link--visual {
+    font-size: 2.4rem;
+  }
+
+    .link__texto {
+      height: 8rem;
+    }
 }
 
 @media screen and (min-width: 1024px) {
+  .menu-hamburger__submenu {
+    top: 6.5rem;
+    max-height: 80vh;
+  }
 
+  .submenu__link,
+  .submenu__link--visual {
+    font-size: 2.4rem;
+  }
+
+    .link__texto {
+      height: 8rem;
+    }
 }
 
 @media screen and (min-width: 1280px) {
+  .menu-hamburger__submenu {
+    top: 7rem;
+    max-height: 80vh;
+  }
 
+  .submenu__link,
+  .submenu__link--visual {
+    font-size: 2.4rem;
+  }
+
+    .link__texto {
+      height: 8rem;
+    }
 }
 
 @media screen and (min-width: 1920px) {
+  .menu-hamburger__submenu {
+    top: 7.5rem;
+    max-height: 80vh;
+  }
 
+  .submenu__link,
+  .submenu__link--visual {
+    font-size: 2.4rem;
+  }
+
+    .link__texto {
+      height: 8rem;
+    }
 }

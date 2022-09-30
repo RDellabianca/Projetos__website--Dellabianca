@@ -7,7 +7,7 @@
   }
 
     .produtos__titulo {
-      width: 90%;
+      width: 55%;
       color: var(--cor__verde-padrao);
       font-size: 2.4rem;
       font-weight: 900;
@@ -24,15 +24,14 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      margin-bottom: 2rem;
+      padding: 0rem;
+      margin: 0rem 0rem 2rem 0rem;
       box-shadow: var(--box-shadow__equilatero);
+      box-sizing: border-box;
     }
 
       .cartao__imagem {
-        min-width: 26rem;
         width: 100%;
-        min-height: 26rem;
-        height: 100%;
       }
 
       .cartao__titulo {
@@ -44,7 +43,11 @@
       }
 
       .cartao__descricao {
+        display: block;
+        min-height: 4.5em;
         font-style: italic;
+        line-height: 1.5;
+        padding: 0rem 1em;
       }
 
       .cartao__descricao,
@@ -58,7 +61,6 @@
 
       .cartao__info {
         width: 100%;
-        margin-top: 2rem;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -78,38 +80,27 @@
   }
 
     .produtos__titulo {
-      width: 65vw;
-      font-size: 2.7rem;
+      width: 45%;
+      font-size: 2.8rem;
       padding: .5rem 0rem 1.5rem 0rem;
-      margin: 0rem auto 2.5rem auto;
+      margin: 0rem auto 3rem auto;
     }
     
     .produtos__cartao {
-      margin-bottom: 3rem;
+      width: 90%;
+      margin: 0rem auto 3rem auto;
     }
 
-      .cartao__imagem {
-        min-width: 26rem;
-        width: 100%;
-        min-height: 26rem;
-        height: 100%;
-      }
-
       .cartao__titulo {
-        color: var(--cor__verde-padrao);
-        font-size: 2.4rem;
-        margin: 3rem 0rem;
+        font-size: 2.2rem;
+        margin: 2.25rem 0rem;
       }
 
       .cartao__descricao,
       .info__peso,
       .info__unidades {
-        margin: 0rem 0rem 2.5rem 0rem;
-        font-size: 2rem;
-      }
-
-      .cartao__info {
-        margin-top: 2.5rem;
+        margin: 0rem 0rem 2.25rem 0rem;
+        font-size: 1.7rem;
       }
 
         .info__peso,
@@ -119,17 +110,139 @@
 }
 
 @media screen and (min-width: 768px) {
+  .conteudo__produtos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4rem 3rem 0rem 3rem;
+  }
 
+    .produtos__titulo {
+      width: 100%;
+      font-size: 3.2rem;
+      padding: 1rem 0rem 2rem 0rem;
+      margin: 0rem 25% 4rem 25%;
+    }
+    
+    .produtos__cartao {
+      width: 48%;
+      margin: 0rem 0rem 4rem 0rem;
+    }
+
+      .cartao__titulo {
+        font-size: 2.4rem;
+        margin: 2.5rem 0rem;
+      }
+
+      .cartao__descricao,
+      .info__peso,
+      .info__unidades {
+        margin: 0rem 0rem 2.5rem 0rem;
+        font-size: 1.8rem;
+      }
+
+        .info__peso,
+        .info__unidades {
+          padding: 0rem 1rem;
+        }
 }
 
 @media screen and (min-width: 1024px) {
+  .conteudo__produtos {
+    padding: 5rem 4rem 0rem 4rem;
+    justify-content: space-evenly;
+  }
 
+    .produtos__titulo {
+      font-size: 3.6rem;
+      padding: 1.5rem 0rem 2.5rem 0rem;
+    }
+    
+    .produtos__cartao {
+      width: 40%;
+      margin: 0rem 0rem 5rem 0rem;
+    }
+
+      .cartao__titulo {
+        font-size: 2.6rem;
+        margin: 2.75rem 0rem;
+      }
+
+      .cartao__descricao,
+      .info__peso,
+      .info__unidades {
+        margin: 0rem 0rem 2.75rem 0rem;
+        font-size: 1.8rem;
+      }
+
+        .info__peso,
+        .info__unidades {
+          padding: 0rem 1.5rem;
+        }
 }
 
 @media screen and (min-width: 1280px) {
+  .conteudo__produtos {
+    padding: 6rem 5rem 0rem 5rem;
+  }
 
+    .produtos__titulo {
+      font-size: 4rem;
+      padding: 2rem 0rem 3rem 0rem;
+    }
+    
+    .produtos__cartao {
+      width: 31%;
+      margin: 0rem 0rem 6rem 0rem;
+    }
+
+      .cartao__titulo {
+        font-size: 2.8rem;
+        margin: 3rem 0rem;
+      }
+
+      .cartao__descricao,
+      .info__peso,
+      .info__unidades {
+        margin: 0rem 0rem 3rem 0rem;
+        font-size: 2rem;
+      }
+
+        .info__peso,
+        .info__unidades {
+          padding: 0rem 2rem;
+        }
 }
 
 @media screen and (min-width: 1920px) {
+  .conteudo__produtos {
+    padding: 7rem 6rem 0rem 6rem;
+  }
 
+    .produtos__titulo {
+      font-size: 4.4rem;
+      padding: 2.5rem 0rem 3.5rem 0rem;
+    }
+    
+    .produtos__cartao {
+      margin: 0rem 0rem 7rem 0rem;
+    }
+
+      .cartao__titulo {
+        font-size: 3rem;
+        margin: 3.25rem 0rem;
+      }
+
+      .cartao__descricao,
+      .info__peso,
+      .info__unidades {
+        margin: 0rem 0rem 3.25rem 0rem;
+        font-size: 2.1rem;
+      }
+
+        .info__peso,
+        .info__unidades {
+          padding: 0rem 2.5rem;
+        }
 }

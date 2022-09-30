@@ -30,8 +30,8 @@
   .rodape__texto {
     width: 100%;
     font-weight: 900;
-    line-height: 2rem;
-    padding: 0rem 1rem 2rem 1rem;
+    line-height: 1.25;
+    padding: 0rem 0rem 2rem 1.5rem;
     margin: auto;
     box-sizing: border-box;
   }
@@ -42,9 +42,28 @@
   }
   
     .rodape__midias-sociais {
-      padding: 2rem 0rem;
-      border-bottom: .1rem solid #fff;
-      margin-bottom: 2rem;
+      padding: 2.5rem 0rem;
+      margin-bottom: 2.5rem;
+    }
+  
+      .midias-sociais__logo {
+        width: 5.5rem;
+        height: 5.5rem;
+      }
+  
+    .rodape__texto {
+      padding: 0rem 0rem 2.5rem 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+  .rodape {
+    font-size: 2.4rem;
+  }
+  
+    .rodape__midias-sociais {
+      padding: 3rem 0rem;
+      margin-bottom: 3rem;
     }
   
       .midias-sociais__logo {
@@ -53,22 +72,66 @@
       }
   
     .rodape__texto {
-      padding: 0rem 2rem 2rem 2rem;
+      padding: 0rem 0rem 3rem 2.5rem;
     }
 }
 
-@media screen and (min-width: 768px) {
-
-}
-
 @media screen and (min-width: 1024px) {
-
+  .rodape {
+    font-size: 2.8rem;
+  }
+  
+    .rodape__midias-sociais {
+      padding: 3.5rem 0rem;
+      margin-bottom: 3.5rem;
+    }
+  
+      .midias-sociais__logo {
+        width: 6.5rem;
+        height: 6.5rem;
+      }
+  
+    .rodape__texto {
+      padding: 0rem 0rem 3.5rem 3rem;
+    }
 }
 
 @media screen and (min-width: 1280px) {
-
+  .rodape {
+    font-size: 3.2rem;
+  }
+  
+    .rodape__midias-sociais {
+      padding: 4rem 0rem;
+      margin-bottom: 4rem;
+    }
+  
+      .midias-sociais__logo {
+        width: 7rem;
+        height: 7rem;
+      }
+  
+    .rodape__texto {
+      padding: 0rem 0rem 4rem 3.5rem;
+    }
 }
 
 @media screen and (min-width: 1920px) {
-
+  .rodape {
+    font-size: 3.6rem;
+  }
+  
+    .rodape__midias-sociais {
+      padding: 4.5rem 0rem;
+      margin-bottom: 4.5rem;
+    }
+  
+      .midias-sociais__logo {
+        width: 7.5rem;
+        height: 7.5rem;
+      }
+  
+    .rodape__texto {
+      padding: 0rem 0rem 4.5rem 4rem;
+    }
 }

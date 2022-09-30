@@ -140,17 +140,17 @@
   .categoria-produtos__menu-botao--paes-de-queijo,
   .categoria-produtos__menu-botao--salgados,
   .categoria-produtos__menu-botao--doces {
-    min-width: 6rem;
-    min-height: 6rem;
+    min-width: 5.5rem;
+    min-height: 5.5rem;
     margin-left: 2rem;
-    background-size: 6rem;
+    background-size: 5.5rem;
   }
 
   .categoria-produtos__menu-botao--paes-de-queijo:focus-within,
   .categoria-produtos__menu-botao--salgados:focus-within,
   .categoria-produtos__menu-botao--doces:focus-within {
     background: url(../../img/simbolos__menu-produtos--baixo-on.svg) no-repeat center / cover;
-    background-size: 6rem;
+    background-size: 5.5rem;
   }
 
   .lista__produtos-disponiveis {
@@ -163,24 +163,198 @@
     }
 
     .produtos-disponiveis__link {
-      width: 55%;
       height: 7rem;
       font-size: 1.7rem;
     }
 }
 
 @media screen and (min-width: 768px) {
+  .conteudo__produtos-home {
+    padding: 1rem 0rem 4rem 0rem;
+  }
 
+  .categoria__container {
+    width: 90%;
+    margin-top: 3rem;
+  }
+
+    .categoria__lista--pao-de-queijo,
+    .categoria__lista--salgados,
+    .categoria__lista--doces {
+      display: none;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      width: 90%;
+    }
+
+  .ilustracao__grupo-titulo {
+    font-size: 2.4rem;
+  }
+
+  .categoria-produtos__menu-botao--paes-de-queijo,
+  .categoria-produtos__menu-botao--salgados,
+  .categoria-produtos__menu-botao--doces {
+    min-width: 6rem;
+    min-height: 6rem;
+    margin-left: 3rem;
+    background-size: 6rem;
+  }
+
+  .categoria-produtos__menu-botao--paes-de-queijo:focus-within,
+  .categoria-produtos__menu-botao--salgados:focus-within,
+  .categoria-produtos__menu-botao--doces:focus-within {
+    background: url(../../img/simbolos__menu-produtos--baixo-on.svg) no-repeat center / cover;
+    background-size: 6rem;
+  }
+
+  .lista__produtos-disponiveis {
+    margin-top: 3rem;
+    width: 45%;
+  }
+
+    .produtos-disponiveis__imagem {
+      width: 12rem;
+      height: 12rem;
+    }
+
+    .produtos-disponiveis__link {
+      height: 9rem;
+      font-size: 2rem;
+    }
 }
 
 @media screen and (min-width: 1024px) {
+  .conteudo__produtos-home {
+    padding: 1rem 0rem 5rem 0rem;
+  }
 
+  .categoria__container {
+    width: 90%;
+    margin-top: 4rem;
+  }
+
+  .ilustracao__grupo-titulo {
+    font-size: 2.7rem;
+  }
+
+  .categoria-produtos__menu-botao--paes-de-queijo,
+  .categoria-produtos__menu-botao--salgados,
+  .categoria-produtos__menu-botao--doces {
+    min-width: 6.5rem;
+    min-height: 6.5rem;
+    margin-left: 4rem;
+    background-size: 6.5rem;
+  }
+
+  .categoria-produtos__menu-botao--paes-de-queijo:focus-within,
+  .categoria-produtos__menu-botao--salgados:focus-within,
+  .categoria-produtos__menu-botao--doces:focus-within {
+    background: url(../../img/simbolos__menu-produtos--baixo-on.svg) no-repeat center / cover;
+    background-size: 6.5rem;
+  }
+
+  .lista__produtos-disponiveis {
+    margin-top: 4rem;
+  }
+
+    .produtos-disponiveis__imagem {
+      width: 14rem;
+      height: 14rem;
+    }
+
+    .produtos-disponiveis__link {
+      height: 11rem;
+      font-size: 2.3rem;
+    }
 }
 
 @media screen and (min-width: 1280px) {
+  .conteudo__produtos-home {
+    padding: 1rem 0rem 6rem 0rem;
+  }
 
+  .categoria__container {
+    width: 90%;
+    margin-top: 5rem;
+  }
+
+  .ilustracao__grupo-titulo {
+    font-size: 3rem;
+  }
+
+  .categoria-produtos__menu-botao--paes-de-queijo,
+  .categoria-produtos__menu-botao--salgados,
+  .categoria-produtos__menu-botao--doces {
+    min-width: 7rem;
+    min-height: 7rem;
+    margin-left: 5rem;
+    background-size: 7rem;
+  }
+
+  .categoria-produtos__menu-botao--paes-de-queijo:focus-within,
+  .categoria-produtos__menu-botao--salgados:focus-within,
+  .categoria-produtos__menu-botao--doces:focus-within {
+    background: url(../../img/simbolos__menu-produtos--baixo-on.svg) no-repeat center / cover;
+    background-size: 7rem;
+  }
+
+  .lista__produtos-disponiveis {
+    margin-top: 5rem;
+  }
+
+    .produtos-disponiveis__imagem {
+      width: 16rem;
+      height: 16rem;
+    }
+
+    .produtos-disponiveis__link {
+      height: 13rem;
+      font-size: 2.6rem;
+    }
 }
 
 @media screen and (min-width: 1920px) {
+  .conteudo__produtos-home {
+    padding: 1rem 0rem 7rem 0rem;
+  }
 
+  .categoria__container {
+    width: 90%;
+    margin-top: 6rem;
+  }
+
+  .ilustracao__grupo-titulo {
+    font-size: 3.3rem;
+  }
+
+  .categoria-produtos__menu-botao--paes-de-queijo,
+  .categoria-produtos__menu-botao--salgados,
+  .categoria-produtos__menu-botao--doces {
+    min-width: 7.5rem;
+    min-height: 7.5rem;
+    margin-left: 6rem;
+    background-size: 7.5rem;
+  }
+
+  .categoria-produtos__menu-botao--paes-de-queijo:focus-within,
+  .categoria-produtos__menu-botao--salgados:focus-within,
+  .categoria-produtos__menu-botao--doces:focus-within {
+    background: url(../../img/simbolos__menu-produtos--baixo-on.svg) no-repeat center / cover;
+    background-size: 7.5rem;
+  }
+
+  .lista__produtos-disponiveis {
+    margin-top: 6rem;
+  }
+
+    .produtos-disponiveis__imagem {
+      width: 18rem;
+      height: 18rem;
+    }
+
+    .produtos-disponiveis__link {
+      height: 15rem;
+      font-size: 2.9rem;
+    }
 }

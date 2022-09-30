@@ -18,14 +18,14 @@
   .introducao-home__descricao {
     font-size: 1.8rem;
     font-style: italic;
-    line-height: 2rem;
+    line-height: 1.8rem;
     color: var(--cor__verde-profundo);
     margin: 2rem 0rem 1rem 0rem;
   }
   
 @media screen and (min-width: 428px) {
   .conteudo__introducao-home {
-    padding: 2rem 2rem 0rem 2rem;
+    padding: 3rem 2rem 0rem 2rem;
   }
   
     .secao__titulo {
@@ -35,22 +35,75 @@
   
     .introducao-home__descricao {
       font-size: 2.1rem;
+      line-height: 2.1rem;
       margin: 3rem 1rem 2rem 1rem;
     }
 }
 
 @media screen and (min-width: 768px) {
-
+  .conteudo__introducao-home {
+    padding: 4rem 3rem 0rem 4rem;
+  }
+  
+    .secao__titulo {
+      width: 45vw;
+      font-size: 3rem;
+    }
+  
+    .introducao-home__descricao {
+      font-size: 2.4rem;
+      line-height: 2.4rem;
+      margin: 4rem 2rem 3rem 2rem;
+    }
 }
 
 @media screen and (min-width: 1024px) {
+  .conteudo__introducao-home {
+    padding: 5rem 4rem 0rem 5rem;
+  }
+  
+    .secao__titulo {
+      width: 40vw;
+      font-size: 3.3rem;
+    }
 
+    .introducao-home__descricao {
+      font-size: 2.7rem;
+      line-height: 2.7rem;
+      margin: 5rem 3rem 4rem 3rem;
+    }
 }
 
 @media screen and (min-width: 1280px) {
+  .conteudo__introducao-home {
+    padding: 6rem 5rem 0rem 6rem;
+  }
+  
+    .secao__titulo {
+      width: 35vw;
+      font-size: 3.6rem;
+    }
 
+    .introducao-home__descricao {
+      font-size: 3rem;
+      line-height: 3rem;
+      margin: 6rem 4rem 5rem 4rem;
+    }
 }
 
 @media screen and (min-width: 1920px) {
+  .conteudo__introducao-home {
+    padding: 6rem 5rem 0rem 6rem;
+  }
+  
+    .secao__titulo {
+      width: 30vw;
+      font-size: 3.9rem;
+    }
 
+    .introducao-home__descricao {
+      font-size: 3.3rem;
+      line-height: 3.3rem;
+      margin: 7rem 5rem 6rem 5rem;
+    }
 }

@@ -11,7 +11,7 @@
     color: #fff;
     font-size: 2.4rem;
     font-weight: 900;
-    line-height: 3rem;
+    line-height: 2;
     text-align: center;
     margin: 0px;
   }
@@ -28,17 +28,45 @@
 }
 
 @media screen and (min-width: 768px) {
+  .conteudo__banner {
+    padding: 3rem;
+    height: 35vh;
+  }
 
+    .banner__titulo {
+      font-size: 3rem;
+    }
 }
 
 @media screen and (min-width: 1024px) {
+  .conteudo__banner {
+    padding: 3.3rem;
+    height: 40vh;
+  }
 
+    .banner__titulo {
+      font-size: 3.3rem;
+    }
 }
 
 @media screen and (min-width: 1280px) {
+  .conteudo__banner {
+    padding: 3.6rem;
+    height: 45vh;
+  }
 
+    .banner__titulo {
+      font-size: 3.6rem;
+    }
 }
 
 @media screen and (min-width: 1920px) {
+  .conteudo__banner {
+    padding: 3.9rem;
+    height: 50vh;
+  }
 
+    .banner__titulo {
+      font-size: 3.9rem;
+    }
 }
