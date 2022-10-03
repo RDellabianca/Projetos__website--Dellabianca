@@ -110,7 +110,7 @@
         padding: 0rem;
         border: none;
         background: transparent url(../../img/simbolos__menu-produtos--direita-off.svg) no-repeat center / cover;
-        background-size: 5rem;
+        background-size: 4rem;
         cursor: pointer;
         transition: all, 100ms;
         box-sizing: border-box;
@@ -120,7 +120,7 @@
       .categoria-produtos__menu-botao--salgados:focus-within,
       .categoria-produtos__menu-botao--doces:focus-within {
         background: transparent url(../../img/simbolos__menu-produtos--baixo-on.svg) no-repeat center / cover;
-        background-size: 5rem;
+        background-size: 4rem;
       }
       
 @media screen and (min-width: 428px) {
@@ -153,13 +153,13 @@
     min-width: 5.5rem;
     min-height: 5.5rem;
     margin-left: 2rem;
-    background-size: 5.5rem;
+    background-size: 4.5rem;
   }
 
   .categoria-produtos__menu-botao--paes-de-queijo:focus-within,
   .categoria-produtos__menu-botao--salgados:focus-within,
   .categoria-produtos__menu-botao--doces:focus-within {
-    background-size: 5.5rem;
+    background-size: 4.5rem;
   }
 
   .lista__produtos-disponiveis {
@@ -217,13 +217,13 @@
     min-width: 6rem;
     min-height: 6rem;
     margin-left: 3rem;
-    background-size: 6rem;
+    background-size: 5rem;
   }
 
   .categoria-produtos__menu-botao--paes-de-queijo:focus-within,
   .categoria-produtos__menu-botao--salgados:focus-within,
   .categoria-produtos__menu-botao--doces:focus-within {
-    background-size: 6rem;
+    background-size: 5rem;
   }
 
   .lista__produtos-disponiveis {
@@ -272,13 +272,13 @@
     min-width: 6.5rem;
     min-height: 6.5rem;
     margin-left: 4rem;
-    background-size: 6.5rem;
+    background-size: 5.5rem;
   }
 
   .categoria-produtos__menu-botao--paes-de-queijo:focus-within,
   .categoria-produtos__menu-botao--salgados:focus-within,
   .categoria-produtos__menu-botao--doces:focus-within {
-    background-size: 6.5rem;
+    background-size: 5.5rem;
   }
 
   .lista__produtos-disponiveis {
@@ -326,13 +326,13 @@
     min-width: 7rem;
     min-height: 7rem;
     margin-left: 5rem;
-    background-size: 7rem;
+    background-size: 6rem;
   }
 
   .categoria-produtos__menu-botao--paes-de-queijo:focus-within,
   .categoria-produtos__menu-botao--salgados:focus-within,
   .categoria-produtos__menu-botao--doces:focus-within {
-    background-size: 7rem;
+    background-size: 6rem;
   }
 
   .lista__produtos-disponiveis {
@@ -380,13 +380,13 @@
     min-width: 7.5rem;
     min-height: 7.5rem;
     margin-left: 6rem;
-    background-size: 7.5rem;
+    background-size: 6.5rem;
   }
 
   .categoria-produtos__menu-botao--paes-de-queijo:focus-within,
   .categoria-produtos__menu-botao--salgados:focus-within,
   .categoria-produtos__menu-botao--doces:focus-within {
-    background-size: 7.5rem;
+    background-size: 6.5rem;
   }
 
   .lista__produtos-disponiveis {
