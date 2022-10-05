@@ -1,133 +1,129 @@
-.conteudo {
-
+.conteudo__produtos {
+  padding: 0rem;
+  color: #fff;
 }
 
-  .conteudo__produtos {
-    padding: 0rem;
-    color: #fff;
+  .produtos__titulo--baldes,
+  .produtos__titulo--pacotes,
+  .produtos__titulo--croissants,
+  .produtos__titulo--esfihas,
+  .produtos__titulo--folhados,
+  .produtos__titulo--hamburgoes,
+  .produtos__titulo--paes-de-batata,
+  .produtos__titulo--tortinhas,
+  .produtos__titulo--tortas-geladas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.4rem;
+    padding: 1rem;
+    background: url(../../img/banners/banner__home--tamanho1.png) no-repeat center / cover;
+    height: 50vw;
+    width: 100%;
+    margin: 0rem 0rem 2rem 0rem;
+    box-sizing: border-box;
+    text-transform: uppercase;
   }
 
-    .produtos__titulo--baldes,
-    .produtos__titulo--pacotes,
-    .produtos__titulo--croissants,
-    .produtos__titulo--esfihas,
-    .produtos__titulo--folhados,
-    .produtos__titulo--hamburgoes,
-    .produtos__titulo--paes-de-batata,
-    .produtos__titulo--tortinhas,
+    .produtos__titulo--baldes {
+      background: url(../../img/banners/banner__produtos-baldes--tamanho1.png) no-repeat center / cover;
+    }
+    
+    .produtos__titulo--pacotes {
+      background: url(../../img/banners/banner__produtos-pacotes--tamanho1.png) no-repeat center / cover;
+    }
+    
+    .produtos__titulo--croissants {
+      background: url(../../img/banners/banner__produtos-croissants--tamanho1.png) no-repeat center / cover;
+    }
+    
+    .produtos__titulo--esfihas {
+      background: url(../../img/banners/banner__produtos-esfihas--tamanho1.png) no-repeat center / cover;
+    }
+    
+    .produtos__titulo--folhados {
+      background: url(../../img/banners/banner__produtos-folhados--tamanho1.png) no-repeat left 60% / cover;
+    }
+    
+    .produtos__titulo--hamburgoes {
+      background: url(../../img/banners/banner__produtos-hamburgoes--tamanho1.png) no-repeat left 77.5% / cover;
+    }
+    
+    .produtos__titulo--paes-de-batata {
+      background: url(../../img/banners/banner__produtos-paes-de-batata--tamanho1.png) no-repeat center / cover;
+    }
+    
+    .produtos__titulo--tortinhas {
+      background: url(../../img/banners/banner__produtos-tortinhas--tamanho1.png) no-repeat center / cover;
+    }
+    
     .produtos__titulo--tortas-geladas {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 2.4rem;
-      padding: 1rem;
-      background: url(../../img/banners/banner__home--tamanho1.png) no-repeat center / cover;
-      height: 50vw;
+      background: url(../../img/banners/banner__produtos-tortas-geladas--tamanho1.png) no-repeat center / cover;
+    }
+  
+  .produtos__cartao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem;
+    margin: 0rem 1rem 2rem 1rem;
+    box-shadow: var(--box-shadow__equilatero);
+    box-sizing: border-box;
+  }
+
+    .cartao__imagem {
       width: 100%;
-      margin: 0rem 0rem 2rem 0rem;
-      box-sizing: border-box;
-      text-transform: uppercase;
     }
 
-      .produtos__titulo--baldes {
-        background: url(../../img/banners/banner__produtos-baldes--tamanho1.png) no-repeat center / cover;
-      }
-      
-      .produtos__titulo--pacotes {
-        background: url(../../img/banners/banner__produtos-pacotes--tamanho1.png) no-repeat center / cover;
-      }
-      
-      .produtos__titulo--croissants {
-        background: url(../../img/banners/banner__produtos-croissants--tamanho1.png) no-repeat center / cover;
-      }
-      
-      .produtos__titulo--esfihas {
-        background: url(../../img/banners/banner__produtos-esfihas--tamanho1.png) no-repeat center / cover;
-      }
-      
-      .produtos__titulo--folhados {
-        background: url(../../img/banners/banner__produtos-folhados--tamanho1.png) no-repeat left 60% / cover;
-      }
-      
-      .produtos__titulo--hamburgoes {
-        background: url(../../img/banners/banner__produtos-hamburgoes--tamanho1.png) no-repeat left 77.5% / cover;
-      }
-      
-      .produtos__titulo--paes-de-batata {
-        background: url(../../img/banners/banner__produtos-paes-de-batata--tamanho1.png) no-repeat center / cover;
-      }
-      
-      .produtos__titulo--tortinhas {
-        background: url(../../img/banners/banner__produtos-tortinhas--tamanho1.png) no-repeat center / cover;
-      }
-      
-      .produtos__titulo--tortas-geladas {
-        background: url(../../img/banners/banner__produtos-tortas-geladas--tamanho1.png) no-repeat center / cover;
-      }
-    
-    .produtos__cartao {
+    .cartao__texto {
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      padding: 0rem;
-      margin: 0rem 1rem 2rem 1rem;
-      box-shadow: var(--box-shadow__equilatero);
-      box-sizing: border-box;
+      justify-content: space-between;
+      height: 100%;
     }
+      
+      .texto__titulo {
+        color: var(--cor__verde-padrao);
+        font-size: 2rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        margin: 2rem 0rem;
+      }
 
-      .cartao__imagem {
+      .texto__descricao {
+        display: block;
+        min-height: 4.5em;
+        font-style: italic;
+        line-height: 1.5;
+        padding: 0rem 1em;
+      }
+
+      .texto__descricao,
+      .info__peso,
+      .info__unidades {
+        margin: 0rem 0rem 2rem 0rem;
+        color: var(--cor__verde-padrao);
+        font-size: 1.6rem;
+        font-weight: 500;
+      }
+
+      .texto__info {
         width: 100%;
-      }
-
-      .cartao__texto {
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        height: 100%;
+        flex-direction: row;
+        justify-content: center;
       }
-        
-        .texto__titulo {
-          color: var(--cor__verde-padrao);
-          font-size: 2rem;
-          font-weight: 900;
-          text-transform: uppercase;
-          margin: 2rem 0rem;
-        }
 
-        .texto__descricao {
-          display: block;
-          min-height: 4.5em;
-          font-style: italic;
-          line-height: 1.5;
-          padding: 0rem 1em;
-        }
-
-        .texto__descricao,
         .info__peso,
         .info__unidades {
-          margin: 0rem 0rem 2rem 0rem;
-          color: var(--cor__verde-padrao);
-          font-size: 1.6rem;
-          font-weight: 500;
+          padding: 0rem .5rem;
+          font-weight: 900;
+          text-transform: uppercase;
+          text-align: center;
         }
-
-        .texto__info {
-          width: 100%;
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-        }
-
-          .info__peso,
-          .info__unidades {
-            padding: 0rem .5rem;
-            font-weight: 900;
-            text-transform: uppercase;
-            text-align: center;
-          }
-        
+      
 @media screen and (min-width: 428px) {
   .produtos__titulo--baldes,
   .produtos__titulo--pacotes,
