@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="20mm"
+   height="20mm"
+   viewBox="0 0 20 20"
+   version="1.1"
+   id="svg7843"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   sodipodi:docname="botao__seta--on.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7845"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.6456983"
+     inkscape:cx="40.065036"
+     inkscape:cy="37.797204"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs7840">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect11010"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0.52916667,0,1 @ F,0,0,1,0,0.52916667,0,1 @ F,0,0,1,0,0.52916667,0,1 @ F,0,0,1,0,0.52916667,0,1 @ F,0,0,1,0,0.52916667,0,1 @ F,0,0,1,0,0.52916667,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="2"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="interpolate_points"
+       id="path-effect11006"
+       is_visible="true"
+       lpeversion="1"
+       interpolator_type="CentripetalCatmullRom" />
+  </defs>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#c8871f;fill-opacity:1;fill-rule:evenodd;stroke-width:1.94312;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dashoffset:74.3552"
+       id="rect11072"
+       width="20"
+       height="20"
+       x="0"
+       y="0"
+       rx="2.8167574" />
+    <path
+       id="path10198"
+       style="fill:#ffffff;fill-rule:evenodd;stroke-width:1.04612;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dashoffset:74.3552"
+       inkscape:transform-center-y="-1.6838815"
+       d="M 2.5530373,14.557056 9.6797942,5.1804772 a 0.40219814,0.40219814 180 0 1 0.6404118,0 l 7.126757,9.3765788 a 0.26246772,0.26246772 116.3815 0 1 -0.208961,0.42129 H 15.188987 A 1.0667528,1.0667528 26.383881 0 1 14.339649,14.557029 L 10.320171,9.2677443 a 0.40212881,0.40212881 180 0 0 -0.6403418,0 L 5.6603519,14.557029 a 1.0667526,1.0667526 153.61612 0 1 -0.8493375,0.421317 l -2.0490162,0 a 0.26246773,0.26246773 63.618496 0 1 -0.2089609,-0.42129 z"
+       inkscape:path-effect="#path-effect11010"
+       inkscape:original-d="M 2.2328315,14.978346 10,4.7591868 17.767169,14.978346 H 14.65982 L 10,8.8464273 5.3401811,14.978346 Z" />
+    <circle
+       id="path10249"
+       style="fill:#000000;stroke:#000000;stroke-width:0.264583"
+       cx="-14.350732"
+       cy="4.4002242"
+       r="0.0049952543" />
+  </g>
+</svg>

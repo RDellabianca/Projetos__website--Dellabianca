@@ -19,13 +19,13 @@
       height: 5rem;
       cursor: pointer;
       border: none;
-      background: transparent url(../img/simbolos__menu-hamburger-off.svg) no-repeat center / cover;
+      background: transparent url(../img/icones/simbolos__menu-hamburger-off.svg) no-repeat center / cover;
       background-size: 80%;
       transition: var(--transition__padrao);
     }
 
       .menu-principal__menu-hamburger:focus-within {
-        background: var(--cor__amarelo-escuro) url(../img/simbolos__menu-hamburger-on.svg) no-repeat center / cover;
+        background: var(--cor__amarelo-escuro) url(../img/icones/simbolos__menu-hamburger-on.svg) no-repeat center / cover;
         background-size: 80%;
       }
 

@@ -11,48 +11,70 @@
   - Pães de queijo
     - Balde
       - B1 Tifabene
-        Contendo 1 kg de massa de pão de queijo, é ótima para consumo pessoal. Experimente recheios!
+        Balde de 1 kg de massa de pão de queijo Tifabene, ótimo para consumo pessoal.
       - B4 Tifabene
-        Contendo 4 kg de massa de pão de queijo, é ótima para lanchonetes. Experimente recheios!
+        Balde de 4 kg de massa de pão de queijo Tifabene, ótimo para lanchonetes.
+
     - Pacote
-      -  15 g 
-        Contém pães de queijo tamanho extra-pequeno, bom para festas.
-      -  20 g
-        Contém pães de queijo tamanho pequeno, bom para qualquer ocasião.
-      -  70 g
-        Contém pães de queijo tamanho médio, bom para lanches da tarde.
-      -  80 g
-        Contém pães de queijo tamanho grande, bom para o café da manhã.
+      - 15 g 
+        Pacote com pães de queijo tamanho coquetel.
+      - 20 g
+        Pacote com pães de queijo tamanho tradicional.
+      - 70 g
+        Pacote com pães de queijo tamanho café da manhã.
+      - 80 g
+        Pacote com pães de queijo tamanho lanche.
       - 100 g
-        Contém pães de queijo tamanho extra-grande, bom para substituir refeições.
+        Pacote com pães de queijo tamanho refeição.
+  
   - Salgados
     - Croissant
       - Chocolate
         Croissant recheado com um chocolate levemente amargo.
       - Misto
         Croissant recheado com presunto e queijo.
+
     - Esfiha
       - Carne
-        Esfiha recheada com carne bovina moída.
+        Esfiha fechada com massa macia, recheada com carne bovina moída.
       - Frango
-        Esfiha recheada com frango desfiado.
+        Esfiha fechada com massa macia, recheada com frango desfiado.
+    
     - Folhado
+      - Banana
+        Folhado com múltiplas camadas finas, recheado com banana e canela.
+      - Carne Seca
+        Folhado com múltiplas camadas finas, recheado com carne seca desfiada.
+      - Chester e Queijo
+        Folhado com múltiplas camadas finas, recheado com presunto de chester e queijo mussarela.
+      - Frango e Requeijão
+        Folhado com múltiplas camadas finas, recheado com frango desfiado e creme de requeijão.
+      - Palmito
+        Folhado com múltiplas camadas finas, recheado com palmito.
+      - Quatro Queijos
+        Folhado com múltiplas camadas finas, recheado com muçarela, provolone, parmesão e gorgonzola.
+    
     - Hamburgão
       - Carne
-        Salgado recheado com carne de hamburger bovino.
+        Hamburgão recheado com hamburger de carne bovina.
+    
     - Pão de Batata
       - Frango
-        Pão de batata recheado com frango desfiado e requeijão.
+        Pão de batata recheado com frango desfiado e creme de requeijão.
       - Requeijão
-        Pão de batata recheado com requeijão.
+        Pão de batata recheado com creme de requeijão.
+    
     - Tortinha
       - Frango
-        XXX
+        Tortinha recheada com frango desfiado.
       - Palmito
-        XXX
+        Tortinha recheada com palmito.
+
   - Doces
     - Torta gelada
       - Holandesa
-        Torta doce gelada, feita de baunilha com caldo de chocolate, envolto de biscoitos.
+        Torta doce gelada, feita de creme branco coberta de caldo de chocolate, envolto de biscoitos tipo calipso.
       - Limão
-        Torta doce gelada, sabor limão e cobertura de chantili com raspas de limão.
+        Torta doce gelada, sabor limão com cobertura de chantili com raspas de limão.
+      - Trufas
+        Torta doce gelada, feita com chocolate coberto com cacau em pó.

@@ -109,7 +109,7 @@
         margin-left: 0rem;
         padding: 0rem;
         border: none;
-        background: transparent url(../../img/simbolos__menu-produtos--direita-off.svg) no-repeat center / cover;
+        background: transparent url(../../img/icones/ui/botao__seta--off.svg) no-repeat center / cover;
         background-size: 4rem;
         cursor: pointer;
         transition: all, 100ms;
@@ -119,7 +119,7 @@
       .categoria-produtos__menu-botao--paes-de-queijo:focus-within,
       .categoria-produtos__menu-botao--salgados:focus-within,
       .categoria-produtos__menu-botao--doces:focus-within {
-        background: transparent url(../../img/simbolos__menu-produtos--baixo-on.svg) no-repeat center / cover;
+        background: transparent url(../../img/icones/ui/botao__seta--on.svg) no-repeat center / cover;
         background-size: 4rem;
       }
       

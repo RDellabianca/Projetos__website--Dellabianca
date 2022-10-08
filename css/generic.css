@@ -9,8 +9,8 @@
   --cor__verde-profundo: #003111;
   --cor__fundo-rodape: #444;
   --border__texto-padrao: .15rem solid var(--cor__verde-profundo);
-  --box-shadow__equilatero: 0px 0px 1rem .25rem #aaa;
-  --box-shadow__vertical-baixo: 0px .1rem 1rem .25rem #aaa;
+  --box-shadow__equilatero: 0px 0px 1rem .25rem #00000080;
+  --box-shadow__vertical-baixo: 0px .1rem 1rem .25rem #00000080;
   --transition__padrao: all, 200ms;
 }
 
@@ -38,7 +38,6 @@ html {
   font-weight: 500;
   font-style: normal;
   line-height: 1rem;
-  background-color: var(--cor__amarelo-escuro);
 }
 
 body {
@@ -61,6 +60,7 @@ a, button {
 .hideText {
   min-width: none;
   width: 0px;
+  font-size: 0px;
   max-width: 0px;
   min-height: none;
   height: 0px;
