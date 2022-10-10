@@ -40,7 +40,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-evenly;
         margin-top: 1rem;
       }
 
@@ -48,6 +48,9 @@
           display: inline-block;
           width: 8rem;
           height: 8rem;
+          padding: 0rem;
+          border: .33rem solid var(--cor__amarelo-escuro);
+          border-radius: 50%;
         }
 
         .produtos-disponiveis__link {
@@ -59,15 +62,14 @@
           font-size: 1.4rem;
           font-weight: 900;
           text-transform: uppercase;
-          border: .2rem solid var(--cor__verde-profundo);
+          border: .1rem solid var(--cor__verde-profundo);
           border-radius: 2rem;
           box-sizing: border-box;
         }
 
           .produtos-disponiveis__link:hover {
             color: #fff;
-            background-color: var(--cor__amarelo-profundo);
-            border-color: var(--cor__amarelo-escuro);
+            background-color: var(--cor__verde-padrao);
           }
 
     .categorias-produtos__grupo-pao-de-queijo,
@@ -172,7 +174,9 @@
     }
 
     .produtos-disponiveis__link {
-      height: 7rem;
+      height: 6rem;
+      border-width: .15rem;
+      border-radius: 2.5rem;
       font-size: 1.7rem;
     }
 }
@@ -231,13 +235,10 @@
     width: 45%;
   }
 
-    .produtos-disponiveis__imagem {
-      width: 12rem;
-      height: 12rem;
-    }
-
     .produtos-disponiveis__link {
-      height: 9rem;
+      height: 7rem;
+      border-width: .2rem;
+      border-radius: 3rem;
       font-size: 2rem;
     }
 }
@@ -286,12 +287,14 @@
   }
 
     .produtos-disponiveis__imagem {
-      width: 14rem;
-      height: 14rem;
+      width: 12rem;
+      height: 12rem;
     }
 
     .produtos-disponiveis__link {
-      height: 11rem;
+      height: 8rem;
+      border-width: .25rem;
+      border-radius: 3.5rem;
       font-size: 2.3rem;
     }
 }
@@ -340,12 +343,14 @@
   }
 
     .produtos-disponiveis__imagem {
-      width: 16rem;
-      height: 16rem;
+      width: 14rem;
+      height: 14rem;
     }
 
     .produtos-disponiveis__link {
-      height: 13rem;
+      height: 9rem;
+      border-width: .3rem;
+      border-radius: 4rem;
       font-size: 2.6rem;
     }
 }
@@ -394,12 +399,14 @@
   }
 
     .produtos-disponiveis__imagem {
-      width: 18rem;
-      height: 18rem;
+      width: 16rem;
+      height: 16rem;
     }
 
     .produtos-disponiveis__link {
-      height: 15rem;
+      height: 10rem;
+      border-width: .35rem;
+      border-radius: 4.5rem;
       font-size: 2.9rem;
     }
 }

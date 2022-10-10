@@ -41,10 +41,20 @@
       margin: 0rem 1rem;
     }
 
+      .menu-principal__link-logo:hover,
+      .menu-principal__link-logo:focus {
+        transform: scale(1.25);
+        transition: all, 100ms;
+      }
+
       .link-logo__imagem {
         display: block;
         width: 100%;
       }
+
+        .link-logo__imagem:focus {
+          
+        }
       
     .menu-principal__navegacao {
       width: 5rem;
@@ -267,6 +277,7 @@
             }
 
               .navegacao__submenu-links {
+                padding: 0rem 3rem;
                 height: 6.5rem;
               }
 
@@ -326,6 +337,7 @@
             }
 
               .navegacao__submenu-links {
+                padding: 0rem 4rem;
                 height: 7rem;
               }
 }
@@ -378,6 +390,7 @@
             }
 
               .navegacao__submenu-links {
-                height: 7.5 rem;
+                padding: 0rem 5rem;
+                height: 7.5rem;
               }
 }

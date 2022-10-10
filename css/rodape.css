@@ -23,7 +23,13 @@
         width: 5rem;
         height: 5rem;
         padding: 0rem;
+        border-radius: 1rem;
       }
+
+        .midias-sociais__logo:hover,
+        .midias-sociais__logo:focus-within {
+          background-color: #000;
+        }
 
       .logo__imagem {
         height: 100%;
@@ -42,6 +48,9 @@
   }
 
     .informacoes__texto {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       width: 100%;
       font-weight: 900;
       line-height: 1.25;
@@ -50,6 +59,11 @@
       margin: auto;
       box-sizing: border-box;
     }
+
+      .texto__logomarca-dellabianca {
+        display: none;
+        margin-right: 1rem;
+      }
   
 @media screen and (min-width: 428px) {
   .rodape__midias-sociais {
@@ -71,7 +85,7 @@
     display: grid;
     align-items: center;
     justify-content: space-evenly;
-    grid: 1fr / repeat(2, 1fr);
+    grid: 1fr / 60% 1fr;
   }
   
     .rodape__midias-sociais {
@@ -108,11 +122,15 @@
       .informacoes__texto {
         padding: 0rem 2rem 2rem 2rem;
       }
+
+        .texto__logomarca-dellabianca {
+          display: initial;
+        }
 }
 
 @media screen and (min-width: 1024px) {
   .rodape {
-    grid: 1fr / 60% 1fr;
+    grid: 1fr / 65% 1fr;
   }
 
     .logo__imagem {

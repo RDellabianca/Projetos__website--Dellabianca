@@ -14,6 +14,10 @@
   --transition__padrao: all, 200ms;
 }
 
+*:focus {
+  outline: none;
+}
+
 @font-face {
   font-family: roboto-slab;
   src: url(../font/roboto-slab/static/RobotoSlab-ExtraLight.ttf);
