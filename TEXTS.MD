@@ -77,3 +77,9 @@
         Torta doce gelada, sabor limão com cobertura de chantili com raspas de limão.
       * Trufas
         Torta doce gelada, feita com chocolate coberto com cacau em pó.
+
+- Contato
+  - Texto
+    Seja bem vindo a nossa página de contato!<br>
+    Utilize os links abaixo para entrar em contato pelo seu método favorito, seja WhatsApp, Telegram ou e-mail.
+    Se preferir, preencha o formulário abaixo para enviar uma mensagem, e retornaremos o mais rápido possível!

@@ -56,7 +56,7 @@ a {
   text-decoration: none;
 }
 
-a, button {
+a, button, input, textarea {
   min-height: 50px;
   min-width: 50px;
 }

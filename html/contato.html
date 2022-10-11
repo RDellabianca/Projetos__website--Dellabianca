@@ -9,9 +9,25 @@
     <link rel="stylesheet" href="../css/cabecalho__submenu.css">
     <link rel="stylesheet" href="../css/contato/contato.css">
     <link rel="stylesheet" href="../css/rodape.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="../img/icones/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../img/icones/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../img/icones/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../img/icones/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../img/icones/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../img/icones/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../img/icones/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../img/icones/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/icones/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../img/icones/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/icones/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../img/icones/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/icones/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#000">
-    <meta name="msapplication-navbutton-color" content="#000">
+    <meta name="theme-color" content="#fff">
+    <meta name="msapplication-TileColor" content="#fff">
+    <meta name="msapplication-TileImage" content="../img/icones/favicon/ms-icon-144x144.png">
+    <meta name="msapplication-navbutton-color" content="#fff">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="keywords" content="pão de queijo, salgados, salgados congelados, alimentos, fornecedor alimentício">
     <meta name="description" content="Fornecedor de produtos alimentícios congelados.">
@@ -213,24 +229,61 @@
     <main class="conteudo">
       <section class="conteudo__contato">
         <h1 class="contato__titulo">contato</h1>
-        <p class="contato__texto">Bem vindo a página de contato!<br>Para entrar em contato sobre compras,
-         parcerias ou dúvidas em geral, utilize os links abaixo:</p>
-        <a href="#" class="contato__cartao-link--whatsapp">
-          <img src="../img/logomarcas__whatsapp-b.svg" alt="Logomarca do WhatsApp." class="cartao-link__imagem">
-          <h2 class="cartao-link__nome-empresa">WhatsApp</h2>
-          <img src="../img/simbolos__icones--clicavel.svg" alt="Ícone decorativo, clicável" class="cartao-link__imagem">
-        </a>
-        <a href="#" class="contato__cartao-link--telegram">
-          <img src="../img/logomarcas__telegram-b.svg" alt="Logomarca do Telegram." class="cartao-link__imagem">
-          <h2 class="cartao-link__nome-empresa">Telegram</h2>
-          <img src="../img/simbolos__icones--clicavel.svg" alt="Ícone decorativo, clicável" class="cartao-link__imagem">
-        </a>
-        <p class="contato__texto">Ou, se preferir, utilize o nosso e-mail de contato:</p>
-        <a href="#" class="contato__cartao-link--email">
-          <img src="../img/simbolos__icones--email.svg" alt="Ícone decorativo, carta" class="cartao-link__imagem">
-          <h2 class="cartao-link__nome-empresa">E-mail</h2>
-          <img src="../img/simbolos__icones--clicavel.svg" alt="Ícone decorativo, clicável" class="cartao-link__imagem">
-        </a>
+
+        <p class="contato__texto">
+          Utilize os links abaixo para entrar em contato pelo seu método favorito, 
+          seja WhatsApp, Telegram ou e-mail. Se preferir, preencha o formulário abaixo 
+          para enviar uma mensagem, e retornaremos o mais rápido possível!
+        </p>
+        
+        <ul class="contato__lista-contatos">
+          <li class="lista-contatos">
+            <a href="https://wa.me/message/BMAYV6SDN7DIO1" class="lista-contatos__link-social">
+              <img src="../img/logomarcas/logomarcas__whatsapp-b.svg" alt="Logomarca do WhatsApp." class="link-social__logomarca">
+              <p class="link-social__empresa">WhatsApp</p>
+              <span class="link-social__icone--link-externo"></span>
+            </a>
+          </li>
+          <li class="lista-contatos">
+            <a href="https://t.me/dellabianca_pdq" class="lista-contatos__link-social">
+              <img src="../img/logomarcas/logomarcas__telegram-b.svg" alt="Logomarca do Telegram." class="link-social__logomarca">
+              <p class="link-social__empresa">Telegram</p>
+              <span class="link-social__icone--link-externo"></span>              
+            </a>
+          </li>
+          <li class="lista-contatos">
+            <a href="#" class="lista-contatos__link-social">
+              <img src="../img/icones/ui/icones__email.svg" alt="Ícone de e-mail." class="link-social__logomarca">
+              <p class="link-social__empresa">E-mail</p>
+              <span class="link-social__icone--link-externo"></span>
+            </a>
+          </li>
+        </ul>
+
+        <form action="" class="contato__formulario">
+          <h2 class="formulario__titulo">Formulário</h2>
+          <label class="formulario__label">
+            Nome completo:
+            <input type="text" class="label__campo">
+          </label>
+
+          <label class="formulario__label">
+            Seu e-mail:
+            <input type="text" class="label__campo">
+          </label>
+
+          <label class="formulario__label">
+            Assunto:
+            <input type="text" class="label__campo">
+          </label>
+          
+          <label class="formulario__label">
+            Mensagem:
+            <textarea class="label__texto" maxlength="2350"></textarea>
+          </label>
+
+          <input type="submit" value="enviar" class="formulario__botao">
+        </form>
       </section>
     </main>
 
