@@ -205,6 +205,12 @@
     font-size: 2.4rem;
   }
 
+  .categorias-produtos__grupo-pao-de-queijo,
+  .categorias-produtos__grupo-salgado,
+  .categorias-produtos__grupo-doces {
+    height: 20vw;
+  }
+  
   .categorias-produtos__grupo-pao-de-queijo {
     background: url(../../img/banners/banner__pao-de-queijo--tamanho3.png) no-repeat center / cover;
   }
@@ -255,6 +261,12 @@
 
   .ilustracao__grupo-titulo {
     font-size: 2.7rem;
+  }
+
+  .categorias-produtos__grupo-pao-de-queijo,
+  .categorias-produtos__grupo-salgado,
+  .categorias-produtos__grupo-doces {
+    height: 15vw;
   }
 
   .categorias-produtos__grupo-pao-de-queijo {

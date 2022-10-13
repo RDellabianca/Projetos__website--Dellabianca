@@ -19,13 +19,13 @@
       height: 5rem;
       cursor: pointer;
       border: none;
-      background: transparent url(../img/icones/simbolos__menu-hamburger-off.svg) no-repeat center / cover;
+      background: transparent url(../img/icones/ui/menu-hamburger-off.svg) no-repeat center / cover;
       background-size: 80%;
       transition: var(--transition__padrao);
     }
 
       .menu-principal__menu-hamburger:focus-within {
-        background: var(--cor__amarelo-escuro) url(../img/icones/simbolos__menu-hamburger-on.svg) no-repeat center / cover;
+        background: var(--cor__amarelo-escuro) url(../img/icones/ui/menu-hamburger-on.svg) no-repeat center / cover;
         background-size: 80%;
       }
 
@@ -37,24 +37,20 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      box-sizing: border-box;
-      margin: 0rem 1rem;
+      padding: 0rem 1rem;
+      background: transparent url(../img/logomarcas/logomarcas__dellabianca.svg) no-repeat center / 80% auto;
     }
 
       .menu-principal__link-logo:hover,
       .menu-principal__link-logo:focus {
-        transform: scale(1.25);
-        transition: all, 100ms;
+        background: var(--cor__amarelo-escuro) url(../img/logomarcas/logomarcas__dellabianca--footer.svg) no-repeat center / 80%;
+        transition: var(--transition__padrao);
       }
 
       .link-logo__imagem {
         display: block;
         width: 100%;
       }
-
-        .link-logo__imagem:focus {
-          
-        }
       
     .menu-principal__navegacao {
       width: 5rem;
@@ -238,8 +234,15 @@
   }
   
   .menu-principal__link-logo {
-    margin-left:  3rem;
+    margin-left: 3rem;
+    padding: 0rem 1rem;
   }
+
+    .menu-principal__link-logo,
+    .menu-principal__link-logo:hover,
+    .menu-principal__link-logo:focus {
+      background-size: 70% auto;
+    }
 
   .menu-principal__navegacao {
     width: auto;
@@ -299,6 +302,7 @@
   
   .menu-principal__link-logo {
     margin-left:  4rem;
+    padding: 0rem 2rem;
   }
 
   .menu-principal__navegacao {
@@ -352,7 +356,14 @@
   
   .menu-principal__link-logo {
     margin-left:  5rem;
+    padding: 0rem 3rem;
   }
+
+    .menu-principal__link-logo,
+    .menu-principal__link-logo:hover,
+    .menu-principal__link-logo:focus {
+      background-size: 60% auto;
+    }
 
   .menu-principal__navegacao {
     width: auto;
