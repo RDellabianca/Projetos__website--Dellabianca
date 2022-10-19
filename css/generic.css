@@ -8,6 +8,7 @@
   --cor__verde-escuro: #163E26;
   --cor__verde-profundo: #003111;
   --cor__fundo-rodape: #444;
+  --cor__fundo-padrao: #f5f5f5;
   --border__texto-padrao: .15rem solid var(--cor__verde-profundo);
   --box-shadow__equilatero: 0px 0px 1rem .25rem #00000080;
   --box-shadow__vertical-baixo: 0px .1rem 1rem .25rem #00000080;
@@ -49,6 +50,7 @@ body {
 }
 
 main {
+  background-color: var(--cor__fundo-padrao);
   padding-top: 5rem;
 }
 

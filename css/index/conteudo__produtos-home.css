@@ -33,7 +33,7 @@
     .categoria__lista--doces {
       display: none;
       flex-direction: column;
-      width: 85%;
+      width: 100%;
     }
 
       .lista__produtos-disponiveis {
