@@ -1,9 +1,18 @@
-Aqui deixarei os problemas encontrados, soluções que achei / acho que funcionariam, etc.:
+<h1>Aqui deixarei os problemas encontrados, soluções que achei / acho que funcionariam, etc.:</h1>
 
-1. <header> e <footer> repetidos em todas as páginas. Isso de cara parece ser uma péssima prática,
-o que me leva a crer que há algum método de repetição de partes do código; Porém, eu sigo uma "filosofia"
-de utilizar javascript somente quando é necessário, e fazer com que a página funcione mesmo desativado.
-  O pouco que eu consegui entender por pesquisas é que isso pode ser feito com PHP, mas eu não sei utilizar
-essa linguagem de programação ainda. Fica para o próximo projeto, senão gastarei mais tempo neste projeto.
+<ul>
+  <li>
+    <h2>
+      1º: os elementos HEADER e FOOTER foram repetidos em todas as 13 páginas.<br>
+      De cara isso parece ser uma péssima prática, e logo encontrei o conceito de DRY (não se repita).<br>
+      Mais pesquisas me levaram a crer que poderia utilizar o JavaScript para gerar esses elementos repetidos, porém, usuários com script desabilitado não conseguiriam ver o cabeçalho e rodapé.<br>
+      Aparentemente posso utilizar PHP para esta funcionalidade, mas PHP requer host...
+    </h2>
+  </li>
 
-2. 
+  <li>
+    <h2>
+      2º: TBA.
+    </h2>
+  </li>
+</ul>

@@ -82,4 +82,10 @@
   - Texto
     Seja bem vindo a nossa página de contato!<br>
     Utilize os links abaixo para entrar em contato pelo seu método favorito, seja WhatsApp, Telegram ou e-mail.
-    Se preferir, preencha o formulário abaixo para enviar uma mensagem, e retornaremos o mais rápido possível!
+    Se preferir, preencha o formulário abaixo para enviar uma mensagem, e retornaremos o mais rápido possível![
+  
+- Agradecimentos
+  - Rafael R.B.
+    - Desenvolvimento do site
+    
+  - RobotoSlab[wght].ttf: Copyright 2018 The Roboto Slab Project Authors (https://github.com/googlefonts/robotoslab)

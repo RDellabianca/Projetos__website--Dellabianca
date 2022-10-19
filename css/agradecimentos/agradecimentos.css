@@ -1,0 +1,555 @@
+.conteudo__agradecimentos {
+  margin: 2rem 0rem 0rem 0rem;
+}
+
+  .agradecimentos__titulo {
+    width: 90%;
+    color: var(--cor__verde-padrao);
+    font-size: 2.4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    padding: .5rem 0rem 1.5rem 0rem;
+    border-bottom: .1rem solid var(--cor__verde-padrao);
+    margin: 0rem auto 2.5rem auto;
+    box-sizing: border-box;
+  }
+
+  .agradecimentos__cartao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 0rem auto 5vw auto;
+    box-shadow: var(--box-shadow__equilatero);
+  }
+
+    .cartao__container-foto {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      padding: 5rem 0rem 2.5rem 0rem;
+      image-rendering: pixelated;
+      /* 100% arredonda erroneamente, deixando uma coluna branca de +/- 1px à esquerda -- daí 101%. */
+      background: url(../../img/icones/perfil/background.png) no-repeat top / 101% 85%;
+    }
+
+      .container-foto__foto {
+        image-rendering: auto;
+        width: 15rem;
+        border: .5rem solid #fff;
+        border-radius: 50%;
+        margin: auto;
+        box-sizing: border-box;
+      }
+
+    .cartao__texto {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+      .texto__titulo,
+      .texto__descricao {
+        color: var(--cor__verde-padrao);
+      }
+
+      .texto__titulo {
+        font-size: 2rem;
+        margin: 0rem 1rem 1rem 1rem;
+        line-height: 1;
+      }
+
+      .texto__descricao {
+        font-size: 1.4rem;
+        line-height: 1.25;
+        margin: 0rem 1rem 1rem 1rem;
+        height: 3.75em;
+        text-align: left;
+      }
+
+    .cartao__links {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 100%;
+    }
+
+      .links__link-social {
+        display: flex;
+        align-items: center;
+      }
+
+        .link-social__logo {
+          display: inline-block;
+          min-width: 40px;
+          width: 5rem;
+          min-height: 40px;
+          height: 5rem;
+        }
+
+        .link-social__empresa {
+          display: none;
+          margin-left: 1rem;
+          color: var(--cor__verde-padrao);
+          font-size: 1.4rem;
+        }
+
+  .agradecimentos__outros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    padding: 2rem 0rem 0rem 0rem;
+    margin: 0rem auto 5vw auto;
+    box-shadow: var(--box-shadow__equilatero);
+  }
+
+    .outros__secoes {
+      text-align: center;
+      border-bottom: .1rem solid #000;
+      margin-bottom: 2rem;
+    }
+      
+      .secoes__titulo,
+      .secoes__texto {
+        color: var(--cor__verde-padrao);
+        margin: 0rem 0rem 1.5rem 0rem;
+      }
+
+      .secoes__titulo {
+        font-size: 2rem;
+        line-height: 1;
+      }
+
+      .secoes__texto {
+        font-size: 1.4rem;
+      }
+
+      .secoes__creditos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 0rem 0rem 1.5rem 0rem;
+      }
+
+        .creditos__link {
+          display: flex;
+          align-items: center;
+        }
+
+          .link__logo {
+            display: inline-block;
+            min-width: 50px;
+            width: 5rem;
+            min-height: 50px;
+            height: 5rem;
+          }
+
+          .link__nome {
+            display: none;
+            margin-left: 1rem;
+            color: var(--cor__verde-padrao);
+            font-size: 1.4rem;
+          }
+
+@media screen and (min-width: 428px) {
+  .conteudo__agradecimentos {
+    margin: 2.25rem 0rem 0rem 0rem;
+  }
+  
+    .agradecimentos__titulo {
+      width: 75%;
+      font-size: 2.6rem;
+      padding: .75rem 0rem 1.75rem 0rem;
+      margin: 0rem auto 2.75rem auto;
+    }
+  
+    .agradecimentos__cartao {
+      width: 85%;
+      margin: 0rem auto 7.5vw auto;
+    }
+  
+      .cartao__container-foto {
+        width: 100%;
+        padding: 6rem 0rem 2.75rem 0rem;
+      }
+  
+        .container-foto__foto {
+          width: 17.5rem;
+        }
+  
+      .cartao__texto,
+      .outros__secoes {
+        margin-bottom: 2.25rem;
+      }
+  
+        .texto__titulo,
+        .secoes__titulo {
+          font-size: 2.2rem;
+          margin: 0rem 1.25rem 1.125rem 1.25rem;
+        }
+  
+        .texto__descricao,
+        .link__nome,
+        .secoes__texto,
+        .link-social__empresa {
+          font-size: 1.5rem;
+          margin: 0rem 3.25rem 1.25rem 3.25rem;
+        }
+  
+      .cartao__links {
+        width: 100%;
+      }
+  
+        .links__link-social {}
+  
+          .link-social__logo,
+          .link__logo {}
+  
+    .agradecimentos__outros {
+      width: 85%;
+      padding: 2.25rem 0rem 0rem 0rem;
+      margin: 0rem auto 7.5vw auto;
+    }
+        
+        .secoes__titulo,
+        .secoes__texto,
+        .secoes__creditos {
+          margin: 0rem 0rem 1.75rem 0rem;
+        }
+
+          .creditos__link {}
+}
+
+@media screen and (min-width: 768px) {
+  .conteudo__agradecimentos {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2.5rem 0rem 0rem 0rem;
+  }
+  
+    .agradecimentos__titulo {
+      width: 44%;
+      font-size: 2.8rem;
+      padding: 1rem 0rem 2rem 0rem;
+      margin: 0rem 28% 3rem 28%;
+    }
+  
+    .agradecimentos__cartao {
+      width: 45%;
+      margin: 0rem auto 2.5rem auto;
+    }
+
+      .agradecimentos__cartao:nth-of-type(1) {
+        margin: 0rem 1.67% 2.25rem 3.33%;
+      }
+
+      .agradecimentos__cartao:nth-of-type(2) {
+        margin: 0rem 3.33% 2.25rem 1.67%;
+      }
+
+      .cartao__container-foto {
+        padding: 7rem 0rem 3rem 0rem;
+      }
+  
+        .container-foto__foto {
+          width: 20rem;
+        }
+  
+      .cartao__texto {
+        margin-bottom: .5rem;
+      }
+
+      .outros__secoes {
+        margin-bottom: 2.5rem;
+      }
+  
+        .texto__titulo,
+        .secoes__titulo {
+          font-size: 2.4rem;
+          margin: 0rem 1.5rem 1.25rem 1.5rem;
+        }
+  
+        .texto__descricao,
+        .link__nome,
+        .secoes__texto {
+          font-size: 1.6rem;
+          margin: 0rem 2.5rem 1.5rem 2.5rem;
+        }
+
+        .link-social__empresa {
+          margin: 0rem 0rem 0rem 1rem;
+        }
+  
+      .cartao__links {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+  
+        .links__link-social {
+          margin: 0rem 0rem 1rem 1.5rem;
+        }
+
+          .link-social__empresa {
+            display: initial;
+          }
+
+          .link-social__logo,
+          .link__logo {
+            width: 4rem;
+            height: 4rem;
+            padding: .5rem;
+          }
+  
+    .agradecimentos__outros {
+      width: 93.5%;
+      padding: 2.5rem 0rem 0rem 0rem;
+      margin: 0rem auto 2.5rem auto;
+    }
+        
+        .secoes__titulo,
+        .secoes__texto,
+        .secoes__creditos {
+          margin: 0rem 0rem 2rem 0rem;
+        }
+
+          .creditos__link {}
+}
+
+@media screen and (min-width: 1024px) {
+  .conteudo__agradecimentos {
+    margin: 2.75rem 0rem 0rem 0rem;
+  }
+  
+    .agradecimentos__titulo {
+      width: 40%;
+      font-size: 3.6rem;
+      padding: 1.25rem 0rem 2.25rem 0rem;
+      margin: 0rem 30% 3.25rem 30%;
+    }
+  
+    .agradecimentos__cartao {
+      width: 35%;
+    }
+      
+      .agradecimentos__cartao:nth-of-type(1) {
+        margin: 0rem 5% 2.25rem 10%;
+      }
+
+      .agradecimentos__cartao:nth-of-type(2) {
+        margin: 0rem 10% 2.25rem 5%;
+      }
+  
+      .cartao__container-foto {
+        padding: 5rem 0rem 1.75rem 0rem;
+      }
+  
+        .container-foto__foto {
+          width: 15rem;
+        }
+  
+      .cartao__texto {
+        margin-bottom: .75rem;
+      }
+
+      .outros__secoes {
+        margin-bottom: 2.75rem;
+      }
+  
+        .texto__titulo,
+        .secoes__titulo {
+          font-size: 2.6rem;
+          margin: 0rem 1.75rem 1.375rem 1.75rem;
+        }
+  
+        .texto__descricao,
+        .link__nome,
+        .secoes__texto {
+          font-size: 1.7rem;
+          margin: 0rem 1.75rem 1.75rem 1.75rem;
+        }
+
+        .link-social__empresa {}
+  
+      .cartao__links {}
+  
+        .links__link-social {
+          margin: 0rem 0rem 1rem 1.75rem;
+        }
+
+          .link-social__empresa {}
+
+          .link-social__logo,
+          .link__logo {}
+  
+    .agradecimentos__outros {
+      width: 80%;
+      padding: 2.75rem 0rem 0rem 0rem;
+      margin: 0rem auto 2.75rem auto;
+    }
+        
+        .secoes__titulo,
+        .secoes__texto,
+        .secoes__creditos {
+          margin: 0rem 0rem 2.25rem 0rem;
+        }
+
+          .creditos__link {}
+}
+
+@media screen and (min-width: 1280px) {
+  .conteudo__agradecimentos {
+    margin: 3rem 0rem 0rem 0rem;
+  }
+  
+    .agradecimentos__titulo {
+      width: 34%;
+      font-size: 3.8rem;
+      padding: 1.5rem 0rem 2.5rem 0rem;
+      margin: 0rem 33% 3.5rem 33%;
+    }
+  
+    .agradecimentos__cartao {
+      width: 30%;
+    }
+      
+      .agradecimentos__cartao:nth-of-type(1) {
+        margin: 0rem 6.66% 2.5rem 13.34%;
+      }
+
+      .agradecimentos__cartao:nth-of-type(2) {
+        margin: 0rem 13.34% 2.5rem 6.66%;
+      }
+  
+      .cartao__container-foto {
+        padding: 5rem 0rem 2.25rem 0rem;
+      }
+  
+        .container-foto__foto {
+          width: 17.5rem;
+        }
+  
+      .cartao__texto {
+        margin-bottom: 1rem;
+      }
+
+      .outros__secoes {
+        margin-bottom: 3rem;
+      }
+  
+        .texto__titulo,
+        .secoes__titulo {
+          font-size: 2.8rem;
+          margin: 0rem 2rem 1.5rem 2rem;
+        }
+  
+        .texto__descricao,
+        .link__nome,
+        .secoes__texto {
+          font-size: 1.8rem;
+          margin: 0rem 2rem 2rem 2rem;
+        }
+
+        .link-social__empresa {}
+  
+      .cartao__links {}
+  
+        .links__link-social {
+          margin: 0rem 0rem 1.25rem 2rem;
+        }
+
+          .link-social__empresa {}
+
+          .link-social__logo,
+          .link__logo {}
+  
+    .agradecimentos__outros {
+      width: 73.5%;
+      padding: 3rem 0rem 0rem 0rem;
+      margin: 0rem auto 3rem auto;
+    }
+        
+        .secoes__titulo,
+        .secoes__texto,
+        .secoes__creditos {
+          margin: 0rem 0rem 2.5rem 0rem;
+        }
+
+          .creditos__link {}
+}
+
+@media screen and (min-width: 1920px) {
+  .conteudo__agradecimentos {
+    margin: 3.25rem 0rem 0rem 0rem;
+  }
+  
+    .agradecimentos__titulo {
+      font-size: 4rem;
+      padding: 1.75rem 0rem 2.75rem 0rem;
+      margin: 0rem 33% 3.75rem 33%;
+    }
+  
+    .agradecimentos__cartao {}
+      
+      .agradecimentos__cartao:nth-of-type(1) {}
+
+      .agradecimentos__cartao:nth-of-type(2) {}
+  
+      .cartao__container-foto {
+        padding: 5rem 0rem 2.25rem 0rem;
+      }
+  
+        .container-foto__foto {
+          width: 20rem;
+        }
+  
+      .cartao__texto {
+        margin-bottom: 1.25rem;
+      }
+
+      .outros__secoes {
+        margin-bottom: 3.25rem;
+      }
+  
+        .texto__titulo,
+        .secoes__titulo {
+          font-size: 3rem;
+          margin: 0rem 2.25rem 1.75rem 2.25rem;
+        }
+  
+        .texto__descricao,
+        .link__nome,
+        .secoes__texto {
+          font-size: 1.9rem;
+          margin: 0rem 2.25rem 2.25rem 2.25rem;
+        }
+
+        .link-social__empresa {}
+  
+      .cartao__links {}
+  
+        .links__link-social {
+          margin: 0rem 0rem 1.5rem 2.25rem;
+        }
+
+          .link-social__empresa {}
+
+          .link-social__logo,
+          .link__logo {}
+  
+    .agradecimentos__outros {
+      padding: 3.25rem 0rem 0rem 0rem;
+      margin: 0rem auto 3.25rem auto;
+    }
+        
+        .secoes__titulo,
+        .secoes__texto,
+        .secoes__creditos {
+          margin: 0rem 0rem 2.75rem 0rem;
+        }
+
+          .creditos__link {}
+}
