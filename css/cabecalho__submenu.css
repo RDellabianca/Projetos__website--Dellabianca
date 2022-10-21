@@ -27,6 +27,7 @@
     font-weight: 900;
     line-height: 1rem;
     text-transform: uppercase;
+    transition: var(--transition__padrao);
   }
 
     .link__texto {
@@ -53,7 +54,7 @@
     .categoria-produtos__lista--doces:hover>.submenu__link--visual,
     .categoria-produtos__lista--doces:focus-within>.submenu__link--visual {
       color: #fff;
-      background: var(--cor__amarelo-escuro);
+      background: var(--cor__verde-padrao);
       transition: var(--transition__padrao);
     }
 

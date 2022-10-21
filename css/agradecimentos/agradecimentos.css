@@ -1,18 +1,21 @@
 .conteudo__agradecimentos {
-  margin: 2rem 0rem 0rem 0rem;
+  margin: 0rem;
 }
 
   .agradecimentos__titulo {
-    width: 90%;
-    color: var(--cor__verde-padrao);
+    width: 95%;
+    max-width: 150vh;
+    color: var(--cor__h1);
     font-size: 2.4rem;
     font-weight: 900;
     text-transform: uppercase;
     text-align: center;
-    padding: .5rem 0rem 1.5rem 0rem;
-    border-bottom: .1rem solid var(--cor__verde-padrao);
-    margin: 0rem auto 2.5rem auto;
+    padding: 2.5rem 0rem;
+    margin: 2rem auto;
+    border-radius: 2rem;
+    background-color: var(--cor__verde-padrao);
     box-sizing: border-box;
+    line-height: 1;
   }
 
   .agradecimentos__container {}
@@ -37,7 +40,7 @@
         padding: 20% 0rem 0rem 0rem;
         image-rendering: pixelated;
         /* 100% arredonda erroneamente, deixando uma coluna branca de +/- 1px à esquerda -- daí 101%. */
-        background: url(../../img/icones/perfil/background.png) no-repeat top / 100% 100%;
+        background: url(../../img/icones/perfil/background.png) no-repeat top / 101% 100%;
       }
 
         .container-foto__foto {
@@ -166,396 +169,372 @@
           }
 
 @media screen and (min-width: 428px) {
-  .conteudo__agradecimentos {
-    margin: 2.25rem 0rem 0rem 0rem;
+  .agradecimentos__titulo {
+    font-size: 2.6rem;
+    padding: 2.75rem 0rem;
+    margin: 3rem auto;
   }
-  
-    .agradecimentos__titulo {
-      width: 70%;
-      font-size: 2.6rem;
-      padding: .75rem 0rem 1.75rem 0rem;
-      margin: 0rem auto 2.75rem auto;
+
+  .agradecimentos__container {}
+    
+    .container__cartao {
+      width: 50vh;
+      height: 75vh;
     }
-  
-    .agradecimentos__container {}
-      
-      .container__cartao {
-        width: 50vh;
-        height: 75vh;
+
+      .cartao__container-foto {
+        width: 100%;
+        padding: 20% 0rem 0rem 0rem;
       }
-  
-        .cartao__container-foto {
-          width: 100%;
-          padding: 20% 0rem 0rem 0rem;
+
+        .container-foto__foto {
+          width: 55%;
         }
-  
-          .container-foto__foto {
-            width: 55%;
-          }
-  
-        .cartao__texto {
-          width: 100%;
-          height: 100%;
-          padding-bottom: 2.25rem;
-        }
-  
-          .texto__titulo {
-            font-size: 2.6rem;
-          }
-  
-          .texto__descricao {
-            font-size: 1.5rem;
-            padding: 0rem 2.25rem 0rem 2.25rem;
-          }
-  
-        .cartao__links {
-          width: 100%;
-        }
-  
-          .links__link-social {}
-  
-            .link-social__logo {}
-  
-            .link-social__empresa {}
-  
-    .agradecimentos__outros {
-      width: 80%;
-      padding: 2.25rem 0rem 0rem 0rem;
-    }
-  
-      .outros__secoes {
-        margin-bottom: 2.25rem;
+
+      .cartao__texto {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 2.25rem;
       }
-  
-        .secoes__titulo {
-          font-size: 2.2rem;
+
+        .texto__titulo {
+          font-size: 2.6rem;
         }
-  
-        .secoes__texto {
+
+        .texto__descricao {
           font-size: 1.5rem;
+          padding: 0rem 2.25rem 0rem 2.25rem;
         }
-  
-        .secoes__creditos {
-          margin: 0rem 0rem 1.75rem 0rem;
-        }
-  
-          .creditos__link {}
-  
-            .link__logo {}
-  
-            .link__nome {}
+
+      .cartao__links {
+        width: 100%;
+      }
+
+        .links__link-social {}
+
+          .link-social__logo {}
+
+          .link-social__empresa {}
+
+  .agradecimentos__outros {
+    width: 80%;
+    padding: 2.25rem 0rem 0rem 0rem;
+  }
+
+    .outros__secoes {
+      margin-bottom: 2.25rem;
+    }
+
+      .secoes__titulo {
+        font-size: 2.2rem;
+      }
+
+      .secoes__texto {
+        font-size: 1.5rem;
+      }
+
+      .secoes__creditos {
+        margin: 0rem 0rem 1.75rem 0rem;
+      }
+
+        .creditos__link {}
+
+          .link__logo {}
+
+          .link__nome {}
 }
 
 @media screen and (min-width: 768px) {
-  .conteudo__agradecimentos {
-    margin: 2.5rem 0rem 0rem 0rem;
+  .agradecimentos__titulo {
+    font-size: 2.8rem;
+    padding: 3rem 0rem;
+    margin: 4rem auto;
   }
-  
-    .agradecimentos__titulo {
-      width: 40%;
-      font-size: 2.8rem;
-      padding: 1rem 0rem 2rem 0rem;
-      margin: 0rem auto 3rem auto;
-    }
-  
-    .agradecimentos__container {
-      display: flex;
-      justify-content: space-evenly;
-      padding-bottom: 5vw;
-    }
-      
-      .container__cartao {
-        width: 60vh;
-        max-width: 40%;
-        height: 80vh;
-        margin: 0rem;
-      }
-  
-        .cartao__container-foto {
-          width: 100%;
-          padding: 10% 0rem 0rem 0rem;
-        }
-  
-          .container-foto__foto {
-            width: 40%;
-          }
-  
-        .cartao__texto {
-          width: 100%;
-          height: 100%;
-          padding-bottom: 0rem;
-        }
-  
-          .texto__titulo {
-            font-size: 2rem;
-          }
-  
-          .texto__descricao {
-            font-size: 1.2rem;
-            max-width: 20rem;
-            padding: 0rem;
-          }
-  
-        .cartao__links {
-          flex-direction: column;
-          justify-content: flex-start;
-          width: 100%;
-        }
-  
-          .links__link-social {
-            width: 100%;
-          }
-  
-            .link-social__logo {
-              width: 3rem;
-              height: 3rem;
-              padding: 1rem;
-            }
-  
-            .link-social__empresa {
-              display: inline-block;
-            }
-  
-    .agradecimentos__outros {
-      width: 80%;
-      padding: 2.5rem 0rem 0rem 0rem;
+
+  .agradecimentos__container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 5vw;
+  }
+    
+    .container__cartao {
+      width: 60vh;
+      max-width: 40%;
+      height: 80vh;
       margin: 0rem;
     }
-  
-      .outros__secoes {
-        margin-bottom: 2.5rem;
+
+      .cartao__container-foto {
+        width: 100%;
+        padding: 10% 0rem 0rem 0rem;
       }
-  
-        .secoes__titulo {
+
+        .container-foto__foto {
+          width: 40%;
+        }
+
+      .cartao__texto {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 0rem;
+      }
+
+        .texto__titulo {
           font-size: 2rem;
         }
-  
-        .secoes__texto {
-          font-size: 1.4rem;
+
+        .texto__descricao {
+          font-size: 1.2rem;
+          max-width: 20rem;
+          padding: 0rem;
         }
-  
-        .secoes__creditos {
-          margin: 0rem 0rem 2rem 0rem;
+
+      .cartao__links {
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+      }
+
+        .links__link-social {
+          width: 100%;
         }
-  
-          .creditos__link {}
-  
-            .link__logo {
-              width: 3rem;
-              height: 3rem;
-              padding: 1rem;
-            }
-  
-            .link__nome {}
+
+          .link-social__logo {
+            width: 3rem;
+            height: 3rem;
+            padding: 1rem;
+          }
+
+          .link-social__empresa {
+            display: inline-block;
+          }
+
+  .agradecimentos__outros {
+    width: 80%;
+    padding: 2.5rem 0rem 0rem 0rem;
+    margin: 0rem;
+  }
+
+    .outros__secoes {
+      margin-bottom: 2.5rem;
+    }
+
+      .secoes__titulo {
+        font-size: 2rem;
+      }
+
+      .secoes__texto {
+        font-size: 1.4rem;
+      }
+
+      .secoes__creditos {
+        margin: 0rem 0rem 2rem 0rem;
+      }
+
+        .creditos__link {}
+
+          .link__logo {
+            width: 3rem;
+            height: 3rem;
+            padding: 1rem;
+          }
+
+          .link__nome {}
 }
 
 @media screen and (min-width: 1024px) {
-  .conteudo__agradecimentos {
-    margin: 2.75rem 0rem 0rem 0rem;
+  .agradecimentos__titulo {
+    font-size: 3rem;
+    padding: 3.25rem 0rem;
+    margin: 5rem auto;
   }
-  
-    .agradecimentos__titulo {
-      width: 35%;
-      font-size: 3rem;
-      padding: 1.25rem 0rem 2.25rem 0rem;
-      margin: 0rem auto 3.25rem auto;
+
+  .agradecimentos__container {}
+    
+    .container__cartao {
+      width: 63vh;
+      height: 84vh;
     }
-  
-    .agradecimentos__container {}
-      
-      .container__cartao {
-        width: 63vh;
-        height: 84vh;
-      }
-  
-        .cartao__container-foto {}
-  
-          .container-foto__foto {}
-  
-        .cartao__texto {}
-  
-          .texto__titulo {
-            font-size: 2.4rem;
-          }
-  
-          .texto__descricao {
-            font-size: 1.4rem;
-            max-width: 25rem;
-          }
-  
-        .cartao__links {
-          width: 80%;
-        }
-  
-          .links__link-social {}
-  
-            .link-social__logo {}
-  
-            .link-social__empresa {}
-  
-    .agradecimentos__outros {
-      width: 80%;
-      padding: 2.75rem 0rem 0rem 0rem;
-      margin: 0rem;
-    }
-  
-      .outros__secoes {
-        margin-bottom: 2.75rem;
-      }
-  
-        .secoes__titulo {
+
+      .cartao__container-foto {}
+
+        .container-foto__foto {}
+
+      .cartao__texto {}
+
+        .texto__titulo {
           font-size: 2.4rem;
         }
-  
-        .secoes__texto {
+
+        .texto__descricao {
           font-size: 1.4rem;
+          max-width: 25rem;
         }
-  
-        .secoes__creditos {
-          margin: 0rem 0rem 2.25rem 0rem;
-        }
-  
-          .creditos__link {}
-  
-            .link__logo {}
-  
-            .link__nome {}
+
+      .cartao__links {
+        width: 80%;
+      }
+
+        .links__link-social {}
+
+          .link-social__logo {}
+
+          .link-social__empresa {}
+
+  .agradecimentos__outros {
+    width: 80%;
+    padding: 2.75rem 0rem 0rem 0rem;
+    margin: 0rem;
+  }
+
+    .outros__secoes {
+      margin-bottom: 2.75rem;
+    }
+
+      .secoes__titulo {
+        font-size: 2.4rem;
+      }
+
+      .secoes__texto {
+        font-size: 1.4rem;
+      }
+
+      .secoes__creditos {
+        margin: 0rem 0rem 2.25rem 0rem;
+      }
+
+        .creditos__link {}
+
+          .link__logo {}
+
+          .link__nome {}
 }
 
 @media screen and (min-width: 1280px) {
-  .conteudo__agradecimentos {
-    margin: 3rem 0rem 0rem 0rem;
+  .agradecimentos__titulo {
+    font-size: 3.2rem;
+    padding: 3.5rem 0rem;
+    margin: 6rem auto;
   }
-  
-    .agradecimentos__titulo {
-      width: 30%;
-      font-size: 3.2rem;
-      padding: 1.5rem 0rem 2.5rem 0rem;
-      margin: 0rem auto 3.5rem auto;
-    }
-  
-    .agradecimentos__container {}
-      
-      .container__cartao {}
-  
-        .cartao__container-foto {}
-  
-          .container-foto__foto {}
-  
-        .cartao__texto {}
-  
-          .texto__titulo {
-            font-size: 2.8rem;
-          }
-  
-          .texto__descricao {
-            font-size: 1.6rem;
-            max-width: 30rem;
-          }
-  
-        .cartao__links {
-          width: 80%;
-        }
-  
-          .links__link-social {}
-  
-            .link-social__logo {}
-  
-            .link-social__empresa {
-              font-size: 1.6rem;
-            }
-  
-    .agradecimentos__outros {
-      width: 80%;
-      padding: 3rem 0rem 0rem 0rem;
-    }
-  
-      .outros__secoes {
-        margin-bottom: 3rem;
-      }
-  
-        .secoes__titulo {
+
+  .agradecimentos__container {}
+    
+    .container__cartao {}
+
+      .cartao__container-foto {}
+
+        .container-foto__foto {}
+
+      .cartao__texto {}
+
+        .texto__titulo {
           font-size: 2.8rem;
         }
-  
-        .secoes__texto {
+
+        .texto__descricao {
           font-size: 1.6rem;
+          max-width: 30rem;
         }
-  
-        .secoes__creditos {
-          margin: 0rem 0rem 2.5rem 0rem;
-        }
-  
-          .creditos__link {}
-  
-            .link__logo {}
-  
-            .link__nome {}
+
+      .cartao__links {
+        width: 80%;
+      }
+
+        .links__link-social {}
+
+          .link-social__logo {}
+
+          .link-social__empresa {
+            font-size: 1.6rem;
+          }
+
+  .agradecimentos__outros {
+    width: 80%;
+    padding: 3rem 0rem 0rem 0rem;
+  }
+
+    .outros__secoes {
+      margin-bottom: 3rem;
+    }
+
+      .secoes__titulo {
+        font-size: 2.8rem;
+      }
+
+      .secoes__texto {
+        font-size: 1.6rem;
+      }
+
+      .secoes__creditos {
+        margin: 0rem 0rem 2.5rem 0rem;
+      }
+
+        .creditos__link {}
+
+          .link__logo {}
+
+          .link__nome {}
 }
 
 @media screen and (min-width: 1920px) {
-  .conteudo__agradecimentos {
-    margin: 3.25rem 0rem 0rem 0rem;
+  .agradecimentos__titulo {
+    font-size: 3.4rem;
+    padding: 3.75rem 0rem;
+    margin: 7rem auto;
   }
-  
-    .agradecimentos__titulo {
-      font-size: 3.4rem;
-      padding: 1.75rem 0rem 2.75rem 0rem;
-      margin: 0rem auto 3.75rem auto;
-    }
-  
-    .agradecimentos__container {}
-      
-      .container__cartao {}
-  
-        .cartao__container-foto {}
-  
-          .container-foto__foto {}
-  
-        .cartao__texto {}
-  
-          .texto__titulo {
-            font-size: 3.2rem;
-          }
-  
-          .texto__descricao {
-            font-size: 1.8rem;
-          }
-  
-        .cartao__links {}
-  
-          .links__link-social {}
-  
-            .link-social__logo {}
-  
-            .link-social__empresa {
-              font-size: 1.8rem;
-            }
-  
-    .agradecimentos__outros {
-      width: 80%;
-      padding: 3.25rem 0rem 0rem 0rem;
-    }
-  
-      .outros__secoes {
-        margin-bottom: 3.25rem;
-      }
-  
-        .secoes__titulo {
+
+  .agradecimentos__container {}
+    
+    .container__cartao {}
+
+      .cartao__container-foto {}
+
+        .container-foto__foto {}
+
+      .cartao__texto {}
+
+        .texto__titulo {
           font-size: 3.2rem;
         }
-  
-        .secoes__texto {
+
+        .texto__descricao {
           font-size: 1.8rem;
         }
-  
-        .secoes__creditos {
-          margin: 0rem 0rem 2.75rem 0rem;
-        }
-  
-          .creditos__link {}
-  
-            .link__logo {}
-  
-            .link__nome {}
+
+      .cartao__links {}
+
+        .links__link-social {}
+
+          .link-social__logo {}
+
+          .link-social__empresa {
+            font-size: 1.8rem;
+          }
+
+  .agradecimentos__outros {
+    width: 80%;
+    padding: 3.25rem 0rem 0rem 0rem;
+  }
+
+    .outros__secoes {
+      margin-bottom: 3.25rem;
+    }
+
+      .secoes__titulo {
+        font-size: 3.2rem;
+      }
+
+      .secoes__texto {
+        font-size: 1.8rem;
+      }
+
+      .secoes__creditos {
+        margin: 0rem 0rem 2.75rem 0rem;
+      }
+
+        .creditos__link {}
+
+          .link__logo {}
+
+          .link__nome {}
 }

@@ -68,6 +68,7 @@
 
         .lista__item--submenu-links {
           padding: 0rem 1rem;
+          transition: var(--transition__padrao);
         }
           
           .lista__item--submenu-links:hover,
@@ -227,7 +228,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .menu-principal__menu-hamburger,
   .menu-principal__link-logo {
     width: 6.5rem;
     height: 6.5rem;
@@ -293,7 +293,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .menu-principal__menu-hamburger,
   .menu-principal__link-logo,
   .menu-principal__navegacao {
     width: 7rem;
@@ -347,7 +346,6 @@
 }
 
 @media screen and (min-width: 1920px) {
-  .menu-principal__menu-hamburger,
   .menu-principal__link-logo,
   .menu-principal__navegacao {
     width: 7.5rem;

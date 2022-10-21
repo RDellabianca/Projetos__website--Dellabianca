@@ -18,29 +18,61 @@
 
       .midias-sociais__logo {
         display: inline-block;
-        min-width: 50px;
-        min-height: 50px;
+        min-width: 5rem;
         width: 5rem;
+        min-height: 5rem;
         height: 5rem;
-        padding: 0rem;
-        border-radius: 1rem;
+      }
+      
+      .logo__imagem--whatsapp,
+      .logo__imagem--telegram,
+      .logo__imagem--instagram,
+      .logo__imagem--linkedin {
+        display: inline-block;
+        width: 4rem;
+        height: 4rem;
+        margin: .5rem;
+        transition: var(--transition__padrao);
       }
 
-        .midias-sociais__logo:hover,
-        .midias-sociais__logo:focus-within {
-          background-color: #000;
+        .logo__imagem--whatsapp {
+          background: transparent url(../img/logomarcas/logomarcas__whatsapp.svg) no-repeat center / cover;
         }
 
-      .logo__imagem {
-        height: 100%;
-      }
+          .midias-sociais__logo:hover>.logo__imagem--whatsapp {
+            background: transparent url(../img/logomarcas/logomarcas__whatsapp--on.svg) no-repeat center / cover;
+          }
+
+        .logo__imagem--telegram {
+          background: transparent url(../img/logomarcas/logomarcas__telegram.svg) no-repeat center / cover;
+        }
+
+          .midias-sociais__logo:hover>.logo__imagem--telegram {
+            background: transparent url(../img/logomarcas/logomarcas__telegram--on.svg) no-repeat center / cover;
+          }
+
+        .logo__imagem--instagram {
+          background: transparent url(../img/logomarcas/logomarcas__instagram.svg) no-repeat center / cover;
+        }
+
+          .midias-sociais__logo:hover>.logo__imagem--instagram {
+            background: transparent url(../img/logomarcas/logomarcas__instagram--on.svg) no-repeat center / cover;
+          }
+
+        .logo__imagem--linkedin {
+          background: transparent url(../img/logomarcas/logomarcas__linkedin.svg) no-repeat center / cover;
+        }
+
+          .midias-sociais__logo:hover>.logo__imagem--linkedin {
+            background: transparent url(../img/logomarcas/logomarcas__linkedin--on.svg) no-repeat center / cover;
+          }
       
       .logo__nome {
         display: none;
         color: #fff;
         font-size: 1.4rem;
         font-weight: 900;
-        margin: 0rem 1rem;
+        margin: 0rem;
       }
   
   .rodape__informacoes {
@@ -49,6 +81,7 @@
 
     .informacoes__texto {
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
       width: 100%;
@@ -61,8 +94,10 @@
     }
 
       .texto__logomarca-dellabianca {
-        display: none;
-        margin-right: 1rem;
+        background: transparent url(../img/logomarcas/logomarcas__dellabianca--footer.svg) no-repeat center / 80%;
+        width: 7rem;
+        height: 5rem;
+        margin-bottom: 2rem;
       }
   
 @media screen and (min-width: 428px) {
@@ -75,23 +110,27 @@
   }
 
     .informacoes__texto {
-      font-size: 1.4rem;
-      padding: 0rem 4rem 2.5rem 4rem;
+      padding: 0rem 5.5rem 2.5rem 5.5rem;
     }
+
+      .texto__logomarca-dellabianca {
+        margin-bottom: 2.5rem;
+        width: 7.5rem;
+        height: 5.5rem;
+      }
 }
 
 @media screen and (min-width: 768px) {
   .rodape {
     display: grid;
     align-items: center;
-    justify-content: space-evenly;
-    grid: 1fr / 60% 1fr;
+    grid: 1fr / 1fr auto;
   }
   
     .rodape__midias-sociais {
       flex-direction: column;
       align-items: center;
-      padding: 2rem 0rem;
+      padding: 1rem 2em;
       margin: 0rem;
       border-left: .1rem solid #fff;
       border-bottom: none;
@@ -105,9 +144,13 @@
         width: auto;
       }
 
-        .logo__imagem {
-          max-height: 4rem;
-          padding: .5rem;
+        .logo__imagem--whatsapp,
+        .logo__imagem--telegram,
+        .logo__imagem--instagram,
+        .logo__imagem--linkedin {
+          width: 3rem;
+          height: 3rem;
+          margin: 1rem;
         }
         
         .logo__nome {
@@ -120,43 +163,64 @@
     }
 
       .informacoes__texto {
+        flex-direction: row;
         padding: 0rem 2rem 2rem 2rem;
+        margin: 0rem;
+        text-align: center;
       }
 
         .texto__logomarca-dellabianca {
-          display: initial;
+          margin: 0rem 1rem 0rem 0rem;
+          width: 8rem;
+          height: 6rem;
         }
 }
 
 @media screen and (min-width: 1024px) {
-  .rodape {
-    grid: 1fr / 65% 1fr;
+  .rodape__midias-sociais {
+    padding: 1rem 3em;
   }
-
-    .logo__imagem {
-      max-height: 3.5rem;
-      padding: .75rem;
-    }
-
+  
   .informacoes__texto {
-    margin: 0rem;
-    text-align: center;
+    font-size: 1.4rem;
   }
+
+    .texto__logomarca-dellabianca {
+      margin: 0rem 1.5rem 0rem 0rem;
+      background-size: 70%;
+      width: 8.5rem;
+      height: 6.5rem;
+    }
 }
 
 @media screen and (min-width: 1280px) {
-  .rodape {
-    grid: 1fr / 70% 1fr;
+  .rodape__midias-sociais {
+    padding: 1rem 4em;
   }
 
-  .logo__imagem {
-    max-height: 4rem;
-    padding: .5rem;
+  .informacoes__texto {
+    font-size: 1.6rem;
   }
+
+    .texto__logomarca-dellabianca {
+      margin: 0rem 2rem 0rem 0rem;
+      width: 11rem;
+      height: 7rem;
+    }
 }
 
 @media screen and (min-width: 1920px) {
-  .rodape {
-    grid: 1fr / 80% 1fr;
+  .rodape__midias-sociais {
+    padding: 1rem 5em;
   }
+
+  .informacoes__texto {
+    font-size: 1.6rem;
+  }
+
+    .texto__logomarca-dellabianca {
+      margin: 0rem 2.5rem 0rem 0rem;
+      width: 13.5rem;
+      height: 7.5rem;
+    }
 }

@@ -8,8 +8,12 @@
   --cor__verde-escuro: #163E26;
   --cor__verde-profundo: #003111;
   --cor__fundo-rodape: #444;
-  --cor__fundo-padrao: #f5f5f5;
+  --cor__fundo-padrao: #fffdf5;
+  --cor__h1: #fff;
   --border__texto-padrao: .15rem solid var(--cor__verde-profundo);
+  --border__padrao: .1rem solid #a5a5a5;
+  --border__botao--off: .15em inset var(--cor__verde-profundo);
+  --border__botao--on: .15em outset var(--cor__verde-profundo);
   --box-shadow__equilatero: 0px 0px 1rem .25rem #00000080;
   --box-shadow__vertical-baixo: 0px .1rem 1rem .25rem #00000080;
   --transition__padrao: all, 200ms;
@@ -43,6 +47,7 @@ html {
   font-weight: 500;
   font-style: normal;
   line-height: 1rem;
+  scroll-behavior: smooth;
 }
 
 body {
