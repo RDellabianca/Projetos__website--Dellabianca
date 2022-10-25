@@ -1,0 +1,7 @@
+.menu-principal__menu-hamburger {
+  background: transparent url(../../img/simbolos__menu-hamburger-off.svg) no-repeat center / cover;
+}
+
+  .menu-principal__menu-hamburger:focus-within {
+    background: var(--cor__amarelo-escuro) url(../../img/simbolos__menu-hamburger-on.svg) no-repeat center / cover;
+  }

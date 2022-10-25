@@ -1,0 +1,405 @@
+.cabecalho {
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+}
+  
+  .cabecalho__menu-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: var(--box-shadow__vertical-baixo);
+    overflow: auto;
+  }
+
+    .menu-principal__menu-hamburger {
+      width: 5rem;
+      height: 5rem;
+      cursor: pointer;
+      border: none;
+      background: transparent url(../img/icones/ui/menu-hamburger-off.svg) no-repeat center / cover;
+      background-size: 80%;
+      transition: var(--transition__padrao);
+    }
+
+      .menu-principal__menu-hamburger:focus-within {
+        background: var(--cor__amarelo-escuro) url(../img/icones/ui/menu-hamburger-on.svg) no-repeat center / cover;
+        background-size: 80%;
+      }
+
+      .menu-principal__menu-hamburger:focus-within>.menu-hamburger__submenu {
+        display: initial;
+      }
+    
+    .menu-principal__link-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0rem 1rem;
+      background: transparent url(../img/logomarcas/logomarcas__dellabianca.svg) no-repeat center / 80% auto;
+    }
+
+      .menu-principal__link-logo:hover,
+      .menu-principal__link-logo:focus {
+        background: var(--cor__amarelo-escuro) url(../img/logomarcas/logomarcas__dellabianca--footer.svg) no-repeat center / 80%;
+        transition: var(--transition__padrao);
+      }
+
+      .link-logo__imagem {
+        display: block;
+        width: 100%;
+      }
+      
+    .menu-principal__navegacao {
+      width: 5rem;
+      height: 5rem;
+    }
+
+      .navegacao__lista {
+        display: none;
+        flex-direction: row;
+        height: inherit;
+        padding: 0rem;
+        margin: 0rem;
+        list-style: none;
+      }
+
+        .lista__item--submenu-links {
+          padding: 0rem 1rem;
+          transition: var(--transition__padrao);
+        }
+          
+          .lista__item--submenu-links:hover,
+          .lista__item--submenu-links:focus-within,
+          .produtos__submenu-paes-de-queijo:hover,
+          .produtos__submenu-paes-de-queijo:focus-within,
+          .produtos__submenu-salgados:hover,
+          .produtos__submenu-salgados:focus-within,
+          .produtos__submenu-doces:hover,
+          .produtos__submenu-doces:focus-within,
+          .navegacao__submenu-links:hover,
+          .navegacao__submenu-links:focus-within {
+            background-color: var(--cor__verde-padrao);
+          }
+          
+            .lista__item--submenu-links:hover>.submenu-links>.submenu-links__texto,
+            .lista__item--submenu-links:focus-within>.submenu-links>.submenu-links__texto,
+            .lista__item--submenu-links:hover>.submenu-links__texto,
+            .lista__item--submenu-links:focus-within>.submenu-links__texto,
+            .produtos__submenu-paes-de-queijo:hover>.submenu-links__texto,
+            .produtos__submenu-paes-de-queijo:focus-within>.submenu-links__texto,
+            .produtos__submenu-salgados:hover>.submenu-links__texto,
+            .produtos__submenu-salgados:focus-within>.submenu-links__texto,
+            .produtos__submenu-doces:hover>.submenu-links__texto,
+            .produtos__submenu-doces:focus-within>.submenu-links__texto,
+            .navegacao__submenu-links:hover>.submenu-links__texto,
+            .navegacao__submenu-links:focus-within>.submenu-links__texto {
+              color: #fff;
+              border-color: #fff;
+            }
+
+          .navegacao__lista>.lista__item--submenu-links:nth-of-type(3) {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+          }
+
+          .lista__item--submenu-links:nth-of-type(3):focus-within>.submenu-links__produtos {
+            display: initial;
+          }
+
+          .submenu-links {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+          }
+          
+          .submenu-links__texto {
+            width: 100%;
+            font-weight: 900;
+            padding: 1rem 0rem;
+            border-bottom: var(--border__texto-padrao);
+            text-align: center;
+          }
+
+          .submenu-links,
+          .navegacao__submenu-links,
+          .lista__item--submenu-links {
+            text-transform: uppercase;
+            text-decoration: none;
+            font-size: 1.6rem;
+            color: var(--cor__verde-padrao);
+          }
+        
+            .submenu-links__produtos {
+              display: none;
+              width: auto;
+              align-items: center;
+              position: fixed;
+              top: 6rem;
+              padding-bottom: 1rem;
+              margin-left: -4rem;
+              background-color: #fff;
+              box-shadow: var(--box-shadow__vertical-baixo);
+              z-index: -1;
+            }
+
+              .produtos__submenu-paes-de-queijo,
+              .produtos__submenu-salgados,
+              .produtos__submenu-doces {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                min-width: 50px;
+                width: auto;
+                min-height: 50px;
+                padding: 0rem;
+                padding: 0rem 2rem;
+              }
+
+                .submenu-pao-de-queijo__navegacao,
+                .submenu-salgados__navegacao,
+                .submenu-doces__navegacao {
+                  display: none;
+                  flex-direction: column;
+                  align-items: center;
+                  position: absolute;
+                  left: 100%;
+                  width: auto;
+                  padding: 0rem 2rem 1rem 2rem;
+                  top: 0%;
+                  background-color: #fff;
+                  box-shadow: var(--box-shadow__vertical-baixo);
+                  z-index: -1;
+                }
+
+                  .navegacao__submenu-links {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    padding: 0rem 2rem;
+                    text-align: center;
+                    line-height: 1.25;
+                  }
+
+                .produtos__submenu-paes-de-queijo:focus-within>.submenu-pao-de-queijo__navegacao,
+                .produtos__submenu-salgados:focus-within>.submenu-salgados__navegacao,
+                .produtos__submenu-doces:focus-within>.submenu-doces__navegacao {
+                  display: flex;
+                }
+
+@media screen and (min-width: 428px) {
+  .menu-principal__menu-hamburger,
+  .menu-principal__link-logo,
+  .menu-principal__navegacao {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+    .menu-principal__menu-hamburger,
+    .menu-principal__link-logo {
+      width: 6rem;
+      height: 6rem;
+    }
+
+    .menu-principal__link-logo {
+      margin-left:  2rem;
+    }
+
+    .menu-principal__menu-hamburger {
+      display: none;
+    }
+
+    .menu-principal__navegacao {
+      width: auto;
+      height: 6rem;
+      padding: 0rem 1rem;
+    }
+
+      .navegacao__lista {
+        display: flex;
+      }
+}
+
+@media screen and (min-width: 1024px) {
+  .menu-principal__link-logo {
+    width: 6.5rem;
+    height: 6.5rem;
+  }
+  
+  .menu-principal__link-logo {
+    margin-left: 3rem;
+    padding: 0rem 1rem;
+  }
+
+    .menu-principal__link-logo,
+    .menu-principal__link-logo:hover,
+    .menu-principal__link-logo:focus {
+      background-size: 70% auto;
+    }
+
+  .menu-principal__navegacao {
+    width: auto;
+    height: 6.5rem;
+    padding: 0rem 1.5rem;
+  }
+
+    .lista__item--submenu-links {
+      padding: 0rem 1.5rem;
+    }
+
+      .submenu-links,
+      .navegacao__submenu-links,
+      .lista__item--submenu-links {
+        font-size: 1.8rem;
+      }
+    
+        .submenu-links__produtos {
+          top: 6.5rem;
+          margin-left: -5rem;
+        }
+
+          .produtos__submenu-paes-de-queijo,
+          .produtos__submenu-salgados,
+          .produtos__submenu-doces {
+            height: 6.5rem;
+            padding: 0rem 3rem;
+          }
+
+            .submenu-pao-de-queijo__navegacao,
+            .submenu-salgados__navegacao,
+            .submenu-doces__navegacao,
+            .navegacao__submenu-links {
+              padding: 0rem 3rem 1rem 3rem;
+            }
+
+              .navegacao__submenu-links {
+                padding: 0rem 3rem;
+                height: 6.5rem;
+              }
+
+  .submenu-links__texto {
+    width: 100%;
+    padding: 1rem 0rem;
+    border-bottom: var(--border__texto-padrao);
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .menu-principal__link-logo,
+  .menu-principal__navegacao {
+    width: 7rem;
+    height: 7rem;
+  }
+  
+  .menu-principal__link-logo {
+    margin-left:  4rem;
+    padding: 0rem 2rem;
+  }
+
+  .menu-principal__navegacao {
+    width: auto;
+    height: 7rem;
+    padding: 0rem 2rem;
+  }
+
+    .lista__item--submenu-links {
+      padding: 0rem 2rem;
+    }
+      
+      .submenu-links,
+      .navegacao__submenu-links,
+      .lista__item--submenu-links {
+        font-size: 2rem;
+      }
+    
+        .submenu-links__produtos {
+          top: 7rem;
+          margin-left: -6rem;
+        }
+
+          .produtos__submenu-paes-de-queijo,
+          .produtos__submenu-salgados,
+          .produtos__submenu-doces {
+            height: 7rem;
+            padding: 0rem 4rem;
+          }
+
+            .submenu-pao-de-queijo__navegacao,
+            .submenu-salgados__navegacao,
+            .submenu-doces__navegacao,
+            .navegacao__submenu-links {
+              padding: 0rem 4rem 1rem 4rem;
+            }
+
+              .navegacao__submenu-links {
+                padding: 0rem 4rem;
+                height: 7rem;
+              }
+}
+
+@media screen and (min-width: 1920px) {
+  .menu-principal__link-logo,
+  .menu-principal__navegacao {
+    width: 7.5rem;
+    height: 7.5rem;
+  }
+  
+  .menu-principal__link-logo {
+    margin-left:  5rem;
+    padding: 0rem 3rem;
+  }
+
+    .menu-principal__link-logo,
+    .menu-principal__link-logo:hover,
+    .menu-principal__link-logo:focus {
+      background-size: 60% auto;
+    }
+
+  .menu-principal__navegacao {
+    width: auto;
+    height: 7.5rem;
+    padding: 0rem 2.5rem;
+  }
+
+    .lista__item--submenu-links {
+      padding: 0rem 2.5rem;
+    }
+      
+      .submenu-links,
+      .navegacao__submenu-links,
+      .lista__item--submenu-links {
+        font-size: 2.2rem;
+      }
+    
+        .submenu-links__produtos {
+          top: 7.5rem;
+          margin-left: -7rem;
+        }
+
+          .produtos__submenu-paes-de-queijo,
+          .produtos__submenu-salgados,
+          .produtos__submenu-doces {
+            height: 7.5rem;
+            padding: 0rem 5rem;
+          }
+
+            .submenu-pao-de-queijo__navegacao,
+            .submenu-salgados__navegacao,
+            .submenu-doces__navegacao,
+            .navegacao__submenu-links {
+              padding: 0rem 5rem 1rem 5rem;
+            }
+
+              .navegacao__submenu-links {
+                padding: 0rem 5rem;
+                height: 7.5rem;
+              }
+}
