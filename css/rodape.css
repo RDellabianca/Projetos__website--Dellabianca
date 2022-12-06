@@ -1,1 +1,173 @@
-.rodape{margin:0;background-color:var(--cor__fundo-rodape);font-size:1.2rem;color:#fff}.rodape__midias-sociais{display:flex;flex-direction:row;align-items:center;justify-content:space-evenly;height:100%;padding:2rem 0;border-bottom:.1rem solid #fff;box-sizing:border-box}.midias-sociais__logo{display:inline-block;min-width:5rem;width:5rem;min-height:5rem;height:5rem}.logo__imagem--instagram,.logo__imagem--linkedin,.logo__imagem--telegram,.logo__imagem--whatsapp{display:inline-block;width:4rem;height:4rem;margin:.5rem;transition:var(--transition__padrao)}.logo__imagem--whatsapp{background:url(../img/logomarcas/logomarcas__whatsapp.svg) center/cover no-repeat}.midias-sociais__logo:hover>.logo__imagem--whatsapp{background:url(../img/logomarcas/logomarcas__whatsapp--on.svg) center/cover no-repeat}.logo__imagem--telegram{background:url(../img/logomarcas/logomarcas__telegram.svg) center/cover no-repeat}.midias-sociais__logo:hover>.logo__imagem--telegram{background:url(../img/logomarcas/logomarcas__telegram--on.svg) center/cover no-repeat}.logo__imagem--instagram{background:url(../img/logomarcas/logomarcas__instagram.svg) center/cover no-repeat}.midias-sociais__logo:hover>.logo__imagem--instagram{background:url(../img/logomarcas/logomarcas__instagram--on.svg) center/cover no-repeat}.logo__imagem--linkedin{background:url(../img/logomarcas/logomarcas__linkedin.svg) center/cover no-repeat}.midias-sociais__logo:hover>.logo__imagem--linkedin{background:url(../img/logomarcas/logomarcas__linkedin--on.svg) center/cover no-repeat}.logo__nome{display:none;color:#fff;font-size:1.4rem;font-weight:900;margin:0}.rodape__informacoes{margin-top:2rem}.informacoes__texto{display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;font-weight:900;padding:0 1.9rem 2rem;line-height:1;margin:auto;box-sizing:border-box}.texto__logomarca-dellabianca{background:url(../img/logomarcas/logomarcas__dellabianca--footer.svg) center/80% no-repeat;width:7rem;height:5rem;margin-bottom:2rem}@media screen and (min-width:428px){.rodape__midias-sociais{padding:2.5rem 0}.rodape__informacoes{margin-top:2.5rem}.informacoes__texto{padding:0 5.5rem 2.5rem}.texto__logomarca-dellabianca{margin-bottom:2.5rem;width:7.5rem;height:5.5rem}}@media screen and (min-width:768px){.rodape{display:grid;align-items:center;grid:1fr/1fr auto}.rodape__midias-sociais{flex-direction:column;align-items:center;padding:1rem 2em;margin:0;border-left:.1rem solid #fff;border-bottom:none;grid-area:1/2/1/2}.midias-sociais__logo{display:flex;flex-direction:row;align-items:center;width:auto}.logo__imagem--instagram,.logo__imagem--linkedin,.logo__imagem--telegram,.logo__imagem--whatsapp{width:3rem;height:3rem;margin:1rem}.logo__nome{display:inline-block;width:7.5rem}.rodape__informacoes{margin-top:2rem}.informacoes__texto{flex-direction:row;padding:0 2rem 2rem;margin:0;text-align:center}.texto__logomarca-dellabianca{margin:0 1rem 0 0;width:8rem;height:6rem}}@media screen and (min-width:1024px){.rodape__midias-sociais{padding:1rem 3em}.informacoes__texto{font-size:1.4rem}.texto__logomarca-dellabianca{margin:0 1.5rem 0 0;background-size:70%;width:8.5rem;height:6.5rem}}@media screen and (min-width:1280px){.rodape__midias-sociais{padding:1rem 4em}.informacoes__texto{font-size:1.6rem}.texto__logomarca-dellabianca{margin:0 2rem 0 0;width:11rem;height:7rem}}@media screen and (min-width:1920px){.rodape__midias-sociais{padding:1rem 5em}.informacoes__texto{font-size:1.6rem}.texto__logomarca-dellabianca{margin:0 2.5rem 0 0;width:13.5rem;height:7.5rem}}
+.rodape {
+  margin: 0rem;
+  background-color: var(--cor__fundo-rodape);
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+  .rodape__midias-sociais {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    padding: 2rem 0rem;
+    border-bottom: .1rem solid #fff;
+    box-sizing: border-box;
+  }
+
+      .midias-sociais__logo {
+        display: inline-block;
+        min-width: 5rem;
+        width: 5rem;
+        min-height: 5rem;
+        height: 5rem;
+      }
+      
+      .logo__imagem--whatsapp,
+      .logo__imagem--telegram,
+      .logo__imagem--instagram,
+      .logo__imagem--linkedin {
+        display: inline-block;
+        width: 4rem;
+        height: 4rem;
+        margin: .5rem;
+        transition: var(--transition__padrao);
+      }
+
+        .logo__imagem--whatsapp {
+          background: transparent url(../img/logomarcas/logomarcas__whatsapp.svg) no-repeat center / cover;
+        }
+
+          .midias-sociais__logo:hover>.logo__imagem--whatsapp {
+            background: transparent url(../img/logomarcas/logomarcas__whatsapp--on.svg) no-repeat center / cover;
+          }
+
+        .logo__imagem--telegram {
+          background: transparent url(../img/logomarcas/logomarcas__telegram.svg) no-repeat center / cover;
+        }
+
+          .midias-sociais__logo:hover>.logo__imagem--telegram {
+            background: transparent url(../img/logomarcas/logomarcas__telegram--on.svg) no-repeat center / cover;
+          }
+
+        .logo__imagem--instagram {
+          background: transparent url(../img/logomarcas/logomarcas__instagram.svg) no-repeat center / cover;
+        }
+
+          .midias-sociais__logo:hover>.logo__imagem--instagram {
+            background: transparent url(../img/logomarcas/logomarcas__instagram--on.svg) no-repeat center / cover;
+          }
+
+        .logo__imagem--linkedin {
+          background: transparent url(../img/logomarcas/logomarcas__linkedin.svg) no-repeat center / cover;
+        }
+
+          .midias-sociais__logo:hover>.logo__imagem--linkedin {
+            background: transparent url(../img/logomarcas/logomarcas__linkedin--on.svg) no-repeat center / cover;
+          }
+      
+      .logo__nome {
+        display: none;
+        color: #fff;
+        font-size: 1.4rem;
+        font-weight: 900;
+        margin: 0rem;
+      }
+  
+  .rodape__informacoes {
+    margin-top: 2rem;
+  }
+
+    .informacoes__texto {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      font-weight: 900;
+      line-height: 1.25;
+      padding: 0rem 1.9rem 2rem 1.9rem;
+      line-height: 1;
+      margin: auto;
+      box-sizing: border-box;
+    }
+
+      .texto__logomarca-dellabianca {
+        display: block;
+        background: transparent url(../img/logomarcas/logomarcas__dellabianca--footer.svg) no-repeat center / 80%;
+        width: 7rem;
+        height: 5rem;
+        margin: 0 auto 2rem auto;
+      }
+  
+@media screen and (min-width: 768px) {
+  .rodape {
+    display: grid;
+    align-items: center;
+    grid: 1fr / 1fr auto;
+  }
+  
+    .rodape__midias-sociais {
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem 2em;
+      margin: 0rem;
+      border-left: .1rem solid #fff;
+      border-bottom: none;
+      grid-area: 1 / 2 / 1 / 2;
+    }
+
+      .midias-sociais__logo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: auto;
+      }
+
+        .logo__imagem--whatsapp,
+        .logo__imagem--telegram,
+        .logo__imagem--instagram,
+        .logo__imagem--linkedin {
+          width: 3rem;
+          height: 3rem;
+          margin: 1rem;
+        }
+        
+        .logo__nome {
+          display: inline-block;
+          width: 7.5rem;
+        }
+
+    .rodape__informacoes {
+      margin-top: 2rem;
+    }
+
+      .informacoes__texto {
+        flex-direction: row;
+        padding: 0rem 2rem 2rem 2rem;
+        margin: 0rem;
+        text-align: center;
+      }
+
+        .texto__logomarca-dellabianca {
+          margin: 0rem auto 1rem auto;
+          width: 8rem;
+          height: 6rem;
+        }
+}
+
+@media screen and (min-width: 1280px) {
+  .rodape__midias-sociais {
+    padding: 1rem 4em;
+  }
+
+  .informacoes__texto {
+    font-size: 1.6rem;
+  }
+
+    .texto__logomarca-dellabianca {
+      width: 11rem;
+      height: 7rem;
+    }
+}

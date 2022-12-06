@@ -1,1 +1,41 @@
-.conteudo__banner{display:flex;align-items:center;justify-content:center;padding:1rem;background:url(../../img/banners/banner__home--tamanho1.png) center/cover no-repeat;height:50vw}.banner__titulo{color:#fff;font-size:1.8rem;font-weight:900;line-height:2;text-align:center;margin:0}@media screen and (min-width:428px){.conteudo__banner{padding:2rem;background:url(../../img/banners/banner__home--tamanho2.png) center/cover no-repeat}.banner__titulo{font-size:2.8rem}}@media screen and (min-width:768px){.conteudo__banner{padding:3rem;background:url(../../img/banners/banner__home--tamanho3.png) center/cover no-repeat}.banner__titulo{font-size:3.4rem}}@media screen and (min-width:1024px){.conteudo__banner{padding:4rem;height:25vw;background:url(../../img/banners/banner__home--tamanho4.png) center/cover no-repeat}.banner__titulo{font-size:3.3rem}}@media screen and (min-width:1280px){.conteudo__banner{padding:4.6rem;background:url(../../img/banners/banner__home--tamanho5.png) center/cover no-repeat}.banner__titulo{font-size:3.6rem}}@media screen and (min-width:1920px){.conteudo__banner{padding:5.2rem;background:url(../../img/banners/banner__home--tamanho6.png) center/cover no-repeat}.banner__titulo{font-size:3.9rem}}
+.conteudo__banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: url(../../img/banners/banner__home--tamanho1.png) no-repeat center / cover;
+  height: 50vw;
+}
+
+  .banner__titulo {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 900;
+    line-height: 2;
+    text-align: center;
+    margin: 0px;
+  }
+
+@media screen and (min-width: 768px) {
+  .conteudo__banner {
+    padding: 3rem;
+    background: url(../../img/banners/banner__home--tamanho3.png) no-repeat center / cover;
+    height: 40vw;
+  }
+
+    .banner__titulo {
+      font-size: 3.6rem;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+  .conteudo__banner {
+    padding: 4.6rem;
+    background: url(../../img/banners/banner__home--tamanho5.png) no-repeat center / cover;
+    height: 30vw;
+  }
+
+    .banner__titulo {
+      font-size: 4.8rem;
+    }
+}
