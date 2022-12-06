@@ -1,6 +1,4 @@
-.conteudo__sobre {
-  padding-top: 2rem;
-}
+.conteudo__sobre {}
 
   .sobre__titulo {
     width: 95%;
@@ -11,7 +9,7 @@
     text-transform: uppercase;
     text-align: center;
     padding: 2.5rem 0rem;
-    margin: 0rem auto 2rem auto;
+    margin: 2rem auto 1rem auto;
     border-radius: 2rem;
     background-color: var(--cor__verde-padrao);
     box-sizing: border-box;
@@ -33,7 +31,7 @@
     }
 
     .container__texto {
-      margin: 0rem 1rem;
+      margin: 0rem 1rem 1rem 1rem;
     }
 
       .texto__paragrafo {
@@ -45,22 +43,22 @@
 
 @media screen and (min-width: 768px) {
   .conteudo__sobre {
-    padding-top: 3rem;
   }
   
     .sobre__titulo {
       font-size: 2.8rem;
       padding: 3rem 0rem;
-      margin: 0rem auto 3rem auto;
+      margin: 3rem auto 2rem auto;
     }
   
       .container__imagem {
         width: 100%;
-        height: 80vh;
+        height: 40vw;
       }
   
       .container__texto {
-        width: 80%;
+        width: 60%;
+        margin: 0rem 1rem 2rem 1rem;
       }
   
         .texto__paragrafo {
@@ -71,17 +69,16 @@
 
 @media screen and (min-width: 1280px) {
   .conteudo__sobre {
-    padding-top: 4rem;
   }
   
     .sobre__titulo {
       font-size: 3.2rem;
       padding: 3.5rem 0rem;
-      margin: 0rem auto 4rem auto;
+      margin: 4rem auto 2rem auto;
     }
   
       .container__texto {
-        width: 60%;
+        width: 30%;
       }
   
         .texto__paragrafo {
