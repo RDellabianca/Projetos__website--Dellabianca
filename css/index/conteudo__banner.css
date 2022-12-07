@@ -4,7 +4,8 @@
   justify-content: center;
   padding: 1rem;
   background: url(../../img/banners/banner__home--tamanho1.png) no-repeat center / cover;
-  height: 50vw;
+  height: 100vw;
+  box-sizing: border-box;
 }
 
   .banner__titulo {
@@ -19,8 +20,8 @@
 @media screen and (min-width: 768px) {
   .conteudo__banner {
     padding: 3rem;
-    background: url(../../img/banners/banner__home--tamanho3.png) no-repeat center / cover;
-    height: 40vw;
+    background: url(../../img/banners/banner__home--tamanho2.png) no-repeat center / cover;
+    height: 50vw;
   }
 
     .banner__titulo {
@@ -30,9 +31,9 @@
 
 @media screen and (min-width: 1280px) {
   .conteudo__banner {
-    padding: 4.6rem;
-    background: url(../../img/banners/banner__home--tamanho5.png) no-repeat center / cover;
-    height: 30vw;
+    padding: 3rem;
+    background: url(../../img/banners/banner__home--tamanho3.png) no-repeat center / cover;
+    max-height: 25vw;
   }
 
     .banner__titulo {

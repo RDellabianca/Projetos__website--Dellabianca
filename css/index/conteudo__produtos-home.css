@@ -92,18 +92,18 @@
     .categorias-produtos__grupo-doces {
       display: block;
       width: 100%;
-      height: 25vw;
+      height: 20vw;
       border-radius: 1rem;
     }
 
     .categorias-produtos__grupo-pao-de-queijo {
-      background: url(../../img/banners/banner__pao-de-queijo--tamanho1.png) no-repeat center / cover;
+      background: url(../../img/produtos/botoes/botao__pao-de-queijo--tamanho1.png) no-repeat center / cover;
     }
     .categorias-produtos__grupo-salgado {
-      background: url(../../img/banners/banner__salgados--tamanho1.png) no-repeat center / cover;
+      background: url(../../img/produtos/botoes/botao__salgados--tamanho1.png) no-repeat center / cover;
     }
     .categorias-produtos__grupo-doces {
-      background: url(../../img/banners/banner__doces--tamanho1.png) no-repeat center / cover;
+      background: url(../../img/produtos/botoes/botao__doces--tamanho1.png) no-repeat center / cover;
     }
 
       .ilustracao__grupo-titulo {
@@ -158,17 +158,17 @@
   .categorias-produtos__grupo-pao-de-queijo,
   .categorias-produtos__grupo-salgado,
   .categorias-produtos__grupo-doces {
-    height: 20vw;
+    height: 15vw;
   }
   
   .categorias-produtos__grupo-pao-de-queijo {
-    background: url(../../img/banners/banner__pao-de-queijo--tamanho3.png) no-repeat center / cover;
+    background: url(../../img/produtos/botoes/botao__pao-de-queijo--tamanho2.png) no-repeat center / cover;
   }
   .categorias-produtos__grupo-salgado {
-    background: url(../../img/banners/banner__salgados--tamanho3.png) no-repeat center / cover;
+    background: url(../../img/produtos/botoes/botao__salgados--tamanho2.png) no-repeat center / cover;
   }
   .categorias-produtos__grupo-doces {
-    background: url(../../img/banners/banner__doces--tamanho3.png) no-repeat center / cover;
+    background: url(../../img/produtos/botoes/botao__doces--tamanho2.png) no-repeat center / cover;
   }
 
   .categoria-produtos__menu-botao--paes-de-queijo,
@@ -176,14 +176,15 @@
   .categoria-produtos__menu-botao--doces {
     min-width: 6rem;
     min-height: 6rem;
+    height: 15vw;
     margin-left: 3rem;
-    background: transparent url(../../img/icones/ui/botao__seta--off.svg) no-repeat center / cover;
+    background: transparent url(../../img/icones/ui/botao__seta--off.svg) no-repeat center / 5rem;
   }
 
     .produtos-home__categoria--pao-de-queijo:focus-within>div>.categoria-produtos__menu-botao--paes-de-queijo,
     .produtos-home__categoria--salgados:focus-within>div>.categoria-produtos__menu-botao--salgados,
     .produtos-home__categoria--doces:focus-within>div>.categoria-produtos__menu-botao--doces {
-      background: transparent url(../../img/icones/ui/botao__seta--on.svg) no-repeat center / cover;
+      background: transparent url(../../img/icones/ui/botao__seta--on.svg) no-repeat center / 5rem;
     }
 
   .lista__produtos-disponiveis {
@@ -209,23 +210,22 @@
   }
 
   .ilustracao__grupo-titulo {
-    font-size: 3rem;
+    font-size: 2.4rem;
   }
 
   .categorias-produtos__grupo-pao-de-queijo,
   .categorias-produtos__grupo-salgado,
   .categorias-produtos__grupo-doces {
-    height: 15vw;
   }
 
   .categorias-produtos__grupo-pao-de-queijo {
-    background: url(../../img/banners/banner__pao-de-queijo--tamanho5.png) no-repeat center / cover;
+    background: url(../../img/produtos/botoes/botao__pao-de-queijo--tamanho3.png) no-repeat center / cover;
   }
   .categorias-produtos__grupo-salgado {
-    background: url(../../img/banners/banner__salgados--tamanho5.png) no-repeat center / cover;
+    background: url(../../img/produtos/botoes/botao__salgados--tamanho3.png) no-repeat center / cover;
   }
   .categorias-produtos__grupo-doces {
-    background: url(../../img/banners/banner__doces--tamanho5.png) no-repeat center / cover;
+    background: url(../../img/produtos/botoes/botao__doces--tamanho3.png) no-repeat center / cover;
   }
 
   .categoria-produtos__menu-botao--paes-de-queijo,
@@ -234,7 +234,14 @@
     min-width: 7rem;
     min-height: 7rem;
     margin-left: 5rem;
+    background: transparent url(../../img/icones/ui/botao__seta--off.svg) no-repeat center / 7rem;
   }
+
+    .produtos-home__categoria--pao-de-queijo:focus-within>div>.categoria-produtos__menu-botao--paes-de-queijo,
+    .produtos-home__categoria--salgados:focus-within>div>.categoria-produtos__menu-botao--salgados,
+    .produtos-home__categoria--doces:focus-within>div>.categoria-produtos__menu-botao--doces {
+      background: transparent url(../../img/icones/ui/botao__seta--on.svg) no-repeat center / 7rem;
+    }
 
   .lista__produtos-disponiveis {
     margin-top: 5rem;
